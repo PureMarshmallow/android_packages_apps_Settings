@@ -4,9 +4,11 @@
     <!-- About screen, Coldfusion build date -->
     <string name="coldfusion_date">ColdFusion release date</string>
     <string name="coldfusion_date_default">2015-01-01-0000</string>
-</resources>
 
      <!-- Enabled by Default Dev option -->
     <string name="show_dev_already_enabled">No need, development settings are enabled by default.</string>
+
+     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
 </resources>
 
