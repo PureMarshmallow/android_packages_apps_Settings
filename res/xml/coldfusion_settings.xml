@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/coldfusion_settings_title" >
+
+    <PreferenceScreen
+        android:key="about_coldfusion"
+        android:fragment="com.android.settings.coldfusion.AboutColdfusion"
+        android:title="@string/about_coldfusion" />
+
+    <PreferenceCategory
+        android:key="category_coldfusion_configuration"
+        android:title="@string/coldfusion_menu_customization" >
+        
+    <PreferenceScreen
+        android:key="power_menu_general_category"
+        android:fragment="com.android.settings.coldfusion.PowerMenuFragment"
+        android:title="@string/power_menu_title" />     
+   
+</PreferenceCategory>
+</PreferenceScreen>

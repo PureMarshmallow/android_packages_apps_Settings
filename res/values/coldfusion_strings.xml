@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 Cold Fusion
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Cold Fusion Configuration -->
+    <string name="header_category_coldfusion">Customization</string>
+    <string name="coldfusion_settings_title">Cold Fusion</string>
+
+    <!-- Cold Fusion Configuration -->
+    <string name="coldfusion_menu_customization">Cold Fusion</string>
+    <string name="about_coldfusion">About ColdFusion</string>
+    <string name="power_menu_title">Power settings</string>
 
     <!-- About screen, Coldfusion build date -->
     <string name="coldfusion_date">ColdFusion release date</string>
@@ -49,8 +71,8 @@
     <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
 
     <!-- Device Info Settings -->
-    <!-- Coldfusion about -->
-    <string name="coldfusion_about">Cold Fusion info</string>
+    <!-- About Cold Fusion -->
+    <string name="about_coldfusion">Cold Fusion info</string>
     <string name="coldfusion_about_summary">Misc info about the rom, developer and contributors</string>
     <string name="coldfusion_useful">Useful links</string>
     <string name="coldfusion_updates">Pushbullet update notifications</string>

@@ -26,7 +26,7 @@ public class about extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.coldfusion_about);
+        addPreferencesFromResource(R.xml.about_coldfusion);
     }
 
     @Override
