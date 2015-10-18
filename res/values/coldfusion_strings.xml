@@ -48,5 +48,24 @@
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
 
+    <!-- Device Info Settings -->
+    <!-- Coldfusion about -->
+    <string name="coldfusion_about">Cold Fusion info</string>
+    <string name="coldfusion_about_summary">Misc info about the rom, developer and contributors</string>
+    <string name="coldfusion_useful">Useful links</string>
+    <string name="coldfusion_updates">Pushbullet update notifications</string>
+    <string name="lead_dev">Lead Developer</string>
+    <string name="joetech">Joe-Tech</string>
+    <string name="joetech_dev">Main Cold Fusion developer</string>
+    <string name="joetech_twit">Joe-Tech\'s Twitter</string>
+    <string name="coldfusion_google+">Cold Fusion G+ community</string>
+    <string name="donate">Donate to support development</string>
+    <string name="contribute">Contributors</string>
+    <string name="npjohnson">Nolen Johnson</string>
+    <string name="npjohnson_kernel">Developer Kernel</string>
+    <string name="nicknice">Nick Nice Collection</string>
+    <string name="wallpaper">Follow him on g+ For more walls</string>
+    <string name="zancerne">Zan Cerne</string>
+    <string name="zancerne_wall">Cold Fusion disigner wallpaper</string>
 </resources>
 
