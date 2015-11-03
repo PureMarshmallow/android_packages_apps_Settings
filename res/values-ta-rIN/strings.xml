@@ -349,6 +349,7 @@
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> கைரேகைகள் பதிவுசெய்யப்பட்டன</item>
       <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> கைரேகை பதிவுசெய்யப்பட்டது</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"கைரேகையை அமைக்கவும்"</string>
     <!-- no translation found for security_settings_fingerprint_enroll_onboard_message (451317492588352122) -->
     <skip />
@@ -369,16 +370,19 @@
     <string name="security_settings_fingerprint_enroll_repeat_message" msgid="8846866512704467036">"முதலில் பயன்படுத்திய அதே விரலை கைரேகை உணர்வியின் மீது வைக்கவும். அதிர்வை உணர்ந்த பின், விரலை எடுக்கவும்."</string>
     <string name="security_settings_fingerprint_enroll_finish_title" msgid="4798692662828257300">"கைரேகை சேர்க்கப்பட்டது!"</string>
     <string name="security_settings_fingerprint_enroll_finish_message" msgid="835496875787664316">"இந்த ஐகானைப் பார்க்கும்போதெல்லாம், அடையாளப்படுத்தலுக்காக அல்லது வாங்குதலை அங்கீகரிக்க, நீங்கள் கைரேகையைப் பயன்படுத்தலாம்."</string>
-    <!-- no translation found for security_settings_fingerprint_enroll_setup_screen_lock (8205113627804480642) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_done (4014607378328187567) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_title (4360990635212143565) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_message (5053971232594165142) -->
-    <skip />
-    <!-- no translation found for fingerprint_enroll_button_add (6317978977419045463) -->
-    <skip />
+    <string name="setup_fingerprint_enroll_finish_message" msgid="7234264291957984004">"சாதனத்தைச் செயல்படச் செய்து, அதைத் திறக்க, கைரேகை உணர்வியைத் தொட்டால் போதும்."</string>
+    <string name="setup_fingerprint_enroll_finish_message_secondary" msgid="7280546429133276374">"இந்த ஐகானைப் பார்க்கும்போதெல்லாம், உங்கள் கைரேகையைப் பயன்படுத்தலாம்."</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="6808422329107426923">"கைரேகை அமைவைத் தவிர்க்கவா?"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="274849306857859783">"கைரேகையை மட்டும் பயன்படுத்தி மொபைலைத் திறக்கும் முறையைத் தேர்வுசெய்துள்ளீர்கள். இப்போது தவிர்த்தால், இதைப் பின்னர் அமைக்க வேண்டியிருக்கும். அமைவுக்குத் தோராயமாக ஒரு நிமிடம் மட்டுமே எடுக்கும்."</string>
+    <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="1195743489835505376">"திரைப் பூட்டை அமை"</string>
+    <string name="security_settings_fingerprint_enroll_done" msgid="4014607378328187567">"முடிந்தது"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="1863561601428695160">"அச்சச்சோ, அது உணர்வி இல்லை"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="5053971232594165142">"சாதனத்தின் கைரேகை உணர்வியைப் பயன்படுத்தவும்."</string>
+    <string name="security_settings_fingerprint_enroll_error_dialog_title" msgid="3618021988442639280">"பதிவுசெய்ய முடியவில்லை"</string>
+    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message" msgid="2942551158278899627">"கைரேகையைப் பதிவுசெய்வதற்கான நேரம் முடிந்தது. மீண்டும் முயற்சிக்கவும்."</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"கைரேகையைப் பதிவுசெய்ய முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு விரலைப் பயன்படுத்தவும்."</string>
+    <string name="fingerprint_enroll_button_add" msgid="6317978977419045463">"மற்றொன்றைச் சேர்"</string>
+>>>>>>> fb2f563... Merge branch 'marshmallow-dr-release' of https://android.googlesource.com/platform/packages/apps/Settings into mm
     <string name="fingerprint_enroll_button_next" msgid="6247009337616342759">"அடுத்து"</string>
     <string name="crypt_keeper_settings_title" msgid="4219233835490520414">"முறைமையாக்கம்"</string>
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"டேப்லெட்டை முறைமையாக்கு"</string>
@@ -1188,6 +1192,7 @@
     <string name="about_settings_summary" msgid="3371517697156165959">"சட்டத் தகவல், நிலை மற்றும் மென்பொருள் பதிப்பைக் காட்டு"</string>
     <string name="legal_information" msgid="5769301644270604095">"சட்டத் தகவல்"</string>
     <string name="contributors_title" msgid="5917703088825286504">"பங்களிப்பாளர்கள்"</string>
+    <string name="manual" msgid="3025943393642974445">"கைமுறை"</string>
     <string name="regulatory_information" msgid="5695464367088752150">"ஒழுங்குமுறைத் தகவல்"</string>
     <string name="copyright_title" msgid="865906688917260647">"பதிப்புரிமை"</string>
     <string name="license_title" msgid="1990487604356037871">"உரிமம்"</string>
@@ -1195,6 +1200,8 @@
     <string name="webview_license_title" msgid="2813507464175738967">"சிஸ்டம் WebView உரிமம்"</string>
     <string name="wallpaper_attributions" msgid="3645880512943433928">"வால்பேப்பர்கள்"</string>
     <string name="wallpaper_attributions_values" msgid="2996183537914690469">"செயற்கை கோள் படங்களை வழங்குபவர்கள்:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+    <string name="settings_manual_activity_title" msgid="8133150693616006051">"கைமுறை"</string>
+    <string name="settings_manual_activity_unavailable" msgid="4752403782883814898">"கைமுறைச் செயலாக்கத்தை ஏற்றுவதில் சிக்கல்."</string>
     <string name="settings_license_activity_title" msgid="7553683406244228650">"ஓப்பன் சோர்ஸ் உரிமங்கள்"</string>
     <string name="settings_license_activity_unavailable" msgid="4210539215951487627">"உரிமங்களை ஏற்றுவதில் சிக்கல் உள்ளது."</string>
     <string name="settings_license_activity_loading" msgid="3337535809093591740">"ஏற்றுகிறது..."</string>
@@ -2459,6 +2466,8 @@
     <string name="keywords_all_apps" msgid="5377153522551809915">"ஆப்ஸ் பதிவிறக்கு பயன்பாடுகள் முறைமை"</string>
     <string name="keywords_app_permissions" msgid="8677901415217188314">"பயன்பாடுகள் அனுமதிகள் பாதுகாப்பு"</string>
     <string name="keywords_default_apps" msgid="3581727483175522599">"பயன்பாடுகள் இயல்பு"</string>
+    <string name="keywords_ignore_optimizations" msgid="946516741848647905">"தவிர் மேம்படுத்தல்கள் doze பயன்பாடு காத்திருப்பு நிலை"</string>
+    <string name="keywords_color_mode" msgid="4670570451841540200">"வைபிரன்ட் rgb srgb வண்ணம் இயற்கை வழக்கம்"</string>
     <string name="keywords_lockscreen" msgid="4806191868723291541">"ஸ்லைடு கடவுச்சொல் வடிவம் pin"</string>
     <string name="setup_wifi_nfc_tag" msgid="9028353016222911016">"வைஃபை NFC குறியை அமை"</string>
     <string name="write_tag" msgid="8571858602896222537">"எழுது"</string>
@@ -2714,12 +2723,128 @@
     <skip />
     <string name="default_app" msgid="6864503001385843060">"(இயல்பு)"</string>
     <string name="apps_storage" msgid="4353308027210435513">"பயன்பாட்டுச் சேமிப்பகம்"</string>
-    <!-- no translation found for usage_access (5479504953931038165) -->
-    <skip />
-    <!-- no translation found for permit_usage_access (4012876269445832300) -->
-    <skip />
-    <!-- no translation found for app_usage_preference (7065701732733134991) -->
-    <skip />
-    <!-- no translation found for usage_access_description (1470042370563522270) -->
-    <skip />
+    <string name="usage_access" msgid="5479504953931038165">"பயன்பாட்டு அணுகல்"</string>
+    <string name="permit_usage_access" msgid="4012876269445832300">"பயன்பாட்டு அணுகல் அனுமதி"</string>
+    <string name="app_usage_preference" msgid="7065701732733134991">"பயன்பாட்டு உபயோக விருப்பத்தேர்வுகள்"</string>
+    <string name="usage_access_description" msgid="1352111094596416795">"பயன்பாட்டு அணுகலானது, பயன்படுத்தும் பிற பயன்பாடுகள் மற்றும் அவற்றை எவ்வளவு அடிக்கடி பயன்படுத்துகிறீர்கள் என்பவற்றையும், உங்கள் மொபைல் நிறுவனம், மொழி அமைப்புகள் மற்றும் பிற விவரங்களையும் கண்காணிக்க, பயன்பாட்டை அனுமதிக்கும்."</string>
+    <string name="memory_settings_title" msgid="7490541005204254222">"நினைவகம்"</string>
+    <string name="memory_details_title" msgid="8542565326053693320">"நினைவக விவரங்கள்"</string>
+    <string name="always_running" msgid="6042448320077429656">"எப்போதும் இயங்குபவை (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="sometimes_running" msgid="6611250683037700864">"சிலநேரங்களில் இயங்குபவை (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="rarely_running" msgid="348413460168817458">"எப்போதாவது இயங்குபவை (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="memory_max_use" msgid="6874803757715963097">"அதிகபட்சம்"</string>
+    <string name="memory_avg_use" msgid="7382015389130622870">"சராசரி"</string>
+    <string name="memory_max_desc" msgid="2861832149718335864">"அதிகபட்சமாக <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_avg_desc" msgid="1551240906596518412">"சராசரியாக <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_use_running_format" msgid="4172488041800743760">"<xliff:g id="MEMORY">%1$s</xliff:g> / <xliff:g id="RUNNING">%2$s</xliff:g>"</string>
+    <string name="process_format" msgid="77905604092541454">"<xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="COUNT">%2$d</xliff:g>)"</string>
+    <string name="high_power_apps" msgid="3459065925679828230">"பேட்டரி மேம்படுத்தல்"</string>
+    <string name="high_power_filter_on" msgid="3222265297576680099">"மேம்படுத்தப்படாதவை"</string>
+    <string name="high_power_on" msgid="3382367497549906927">"பேட்டரி மேம்படுத்தலைத் தவிர்க்கும்"</string>
+    <string name="high_power_off" msgid="3393904131961263278">"பேட்டரி உபயோகத்தை மேம்படுத்தும்"</string>
+    <string name="high_power_system" msgid="7362862974428225301">"பேட்டரி மேம்படுத்தல் இல்லை"</string>
+    <string name="high_power_desc" msgid="6283926163708585760">"பேட்டரி மேம்படுத்தலைப் பயன்படுத்தவில்லை எனில், உங்கள் பேட்டரி மிக விரைவில் தீர்ந்துவிடக்கூடும்."</string>
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="other">பேட்டரி மேம்படுத்தலைத் தவிர்க்க, <xliff:g id="COUNT">%d</xliff:g> பயன்பாடுகள் அனுமதிக்கப்பட்டன</item>
+      <item quantity="one">பேட்டரி மேம்படுத்தலைத் தவிர்க்க, 1 பயன்பாடு அனுமதிக்கப்பட்டது</item>
+    </plurals>
+    <string name="high_power_prompt_title" msgid="4257734526819699048">"பேட்டரி மேம்படுத்தல்களைத் தவிர்க்கவா?"</string>
+    <string name="high_power_prompt_body" msgid="4072587909486730876">"பின்புலத்தில் தொடர்ந்து இயங்க, <xliff:g id="APP_NAME">%1$s</xliff:g> பயன்பாட்டை அனுமதிக்கவா? இது அதிக பேட்டரியைப் பயன்படுத்தக் கூடும்."</string>
+    <string name="battery_summary" msgid="101415762036784289">"முழு சார்ஜிலிருந்து <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% பயன்படுத்தப்பட்டது"</string>
+    <string name="no_battery_summary" msgid="3528036835462846814">"கடைசியாக முழு சார்ஜ் செய்த நேரத்திலிருந்து, பேட்டரி பயன்படுத்தப்படவில்லை"</string>
+    <string name="app_notification_preferences" msgid="1599319335092722613">"பயன்பாட்டு அமைப்புகள்"</string>
+    <string name="system_ui_settings" msgid="579824306467081123">"SystemUI ட்யூனரைக் காட்டு"</string>
+    <string name="additional_permissions" msgid="6463784193877056080">"கூடுதல் அனுமதிகள்"</string>
+    <string name="additional_permissions_more" msgid="3538612272673191451">"மேலும் <xliff:g id="COUNT">%1$d</xliff:g>"</string>
+    <string name="usb_use_charging_only" msgid="167707234832117768">"சார்ஜ் செய்தல்"</string>
+    <string name="usb_use_charging_only_desc" msgid="3066256793008540627">"இந்தச் சாதனத்தைச் சார்ஜ் செய்யும்"</string>
+    <string name="usb_use_power_only" msgid="6304554004177083963">"பவர் சப்ளை"</string>
+    <string name="usb_use_power_only_desc" msgid="708134382305728112">"இணைக்கப்பட்ட பிற சாதனத்தைச் சார்ஜ் செய்யும்"</string>
+    <string name="usb_use_file_transfers" msgid="6978904665877785548">"கோப்புப் பரிமாற்றங்கள்"</string>
+    <string name="usb_use_file_transfers_desc" msgid="1663579896876922124">"Windows அல்லது Mac (MTP)க்கு கோப்புகளைப் பரிமாற்றும்"</string>
+    <string name="usb_use_photo_transfers" msgid="8276445551694259039">"படப் பரிமாற்றம் (PTP)"</string>
+    <string name="usb_use_photo_transfers_desc" msgid="2963034811151325996">"MTP ஆதரிக்கப்படவில்லை எனில், படங்கள் அல்லது கோப்புகளைப் பரிமாற்றும் (PTP)"</string>
+    <string name="usb_use_MIDI" msgid="5116404702692483166">"MIDI"</string>
+    <string name="usb_use_MIDI_desc" msgid="6895383550910152384">"MIDI உள்ளீட்டிற்குச் சாதனத்தைப் பயன்படுத்தும்"</string>
+    <string name="usb_use" msgid="3372728031108932425">"இதற்காக USBஐப் பயன்படுத்து:"</string>
+    <string name="inactive_apps_title" msgid="1317817863508274533">"செயலில் இல்லாத பயன்பாடுகள்"</string>
+    <string name="inactive_app_inactive_summary" msgid="6768756967594202411">"செயலில் இல்லை. மாற்ற, தொடவும்."</string>
+    <string name="inactive_app_active_summary" msgid="4512911571954375968">"செயலில் உள்ளது. மாற்ற, தொடவும்."</string>
+    <string name="assist_access_context_title" msgid="2269032346698890257">"திரையில் காட்டப்படும் உரையை பயன்படுத்து"</string>
+    <string name="assist_access_context_summary" msgid="1991421283142279560">"திரையில் காட்டப்படும் உரை போன்ற உள்ளடக்கத்தை அணுக, அசிஸ்ட் பயன்பாட்டை அனுமதிக்கும்"</string>
+    <string name="assist_access_screenshot_title" msgid="4034721336291215819">"ஸ்கிரீன் ஷாட்டைப் பயன்படுத்து"</string>
+    <string name="assist_access_screenshot_summary" msgid="6761636689013259901">"திரையின் படத்தை அணுக, அசிஸ்ட் பயன்பாட்டை அனுமதிக்கும்"</string>
+    <string name="assist_footer" msgid="1982791172085896864">"நீங்கள் பார்க்கும் திரையில் உள்ள தகவலின் அடிப்படையில் அசிஸ்ட் பயன்பாடு உங்களுக்கு உதவலாம். ஒருங்கிணைந்த உதவியை வழங்குவதற்காக சில பயன்பாடுகள், துவக்கி மற்றும் குரல் உள்ளீட்டுச் சேவைகள் ஆகிய இரண்டையும் ஆதரிக்கின்றன."</string>
+    <string name="average_memory_use" msgid="829566450150198512">"சராசரி நினைவக உபயோகம்"</string>
+    <string name="maximum_memory_use" msgid="7493720799710132496">"அதிகபட்ச நினைவக உபயோகம்"</string>
+    <string name="memory_usage" msgid="1781358557214390033">"நினைவக உபயோகம்"</string>
+    <string name="app_list_memory_use" msgid="6987417883876419338">"பயன்பாட்டின் உபயோகம்"</string>
+    <string name="memory_details" msgid="5943436005716991782">"விவரங்கள்"</string>
+    <string name="memory_use_summary" msgid="5608257211903075754">"கடந்த 3 மணிநேரத்தில் சராசரியாக <xliff:g id="SIZE">%1$s</xliff:g> நினைவகம் பயன்படுத்தப்பட்டது"</string>
+    <string name="no_memory_use_summary" msgid="2016900536806235588">"கடந்த 3 மணிநேரத்தில் நினைவகம் பயன்படுத்தப்படவில்லை"</string>
+    <string name="sort_avg_use" msgid="3998036180505143129">"சராசரி உபயோகத்தின்படி வரிசைப்படுத்து"</string>
+    <string name="sort_max_use" msgid="4629247978290075124">"அதிகபட்ச உபயோகத்தின்படி வரிசைப்படுத்து"</string>
+    <string name="memory_performance" msgid="5661005192284103281">"செயல்திறன்"</string>
+    <string name="total_memory" msgid="2017287600738630165">"மொத்த நினைவகம்"</string>
+    <string name="average_used" msgid="5338339266517245782">"சராசரி உபயோகம் (%)"</string>
+    <string name="free_memory" msgid="4003936141603549746">"காலி"</string>
+    <string name="memory_usage_apps" msgid="5650192998273294098">"பயன்பாடுகள் உபயோகிக்கும் நினைவகம்"</string>
+    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
+      <item quantity="other">கடந்த <xliff:g id="DURATION_1">%2$s</xliff:g> இல் <xliff:g id="COUNT">%1$d</xliff:g> பயன்பாடுகள் நினைவகத்தைப் பயன்படுத்தியுள்ளன</item>
+      <item quantity="one">கடந்த <xliff:g id="DURATION_0">%2$s</xliff:g> இல் 1 பயன்பாடு நினைவகத்தைப் பயன்படுத்தியுள்ளது</item>
+    </plurals>
+    <string name="running_frequency" msgid="6622624669948277693">"கால இடைவெளி"</string>
+    <string name="memory_maximum_usage" msgid="6513785462055278341">"அதிகபட்ச உபயோகம்"</string>
+    <string name="no_data_usage" msgid="9131454024293628063">"தரவு எதுவும் பயன்படுத்தப்படவில்லை"</string>
+    <string name="zen_access_warning_dialog_title" msgid="1198189958031157142">"<xliff:g id="APP">%1$s</xliff:g>க்கான தொந்தரவு செய்ய வேண்டாம் அணுகலை அனுமதிக்கவா?"</string>
+    <string name="zen_access_warning_dialog_summary" msgid="4015885767653010873">"பயன்பாட்டினால் தொந்தரவு செய்ய வேண்டாம் என்பதை இயக்க/முடக்க முடிவதுடன், தொடர்புடைய அமைப்புகளை மாற்றவும் முடியும்."</string>
+    <string name="ignore_optimizations_on" msgid="6915689518016285116">"மேம்படுத்த வேண்டாம்"</string>
+    <string name="ignore_optimizations_off" msgid="6153196256410296835">"மேம்படுத்து"</string>
+    <string name="ignore_optimizations_on_desc" msgid="2321398930330555815">"பேட்டரியை மிக விரைவாகத் தீர்த்துவிடக்கூடும்"</string>
+    <string name="ignore_optimizations_off_desc" msgid="5255731062045426544">"பேட்டரி அதிக நேரம் நீடிப்பதற்காகப் பரிந்துரைக்கப்படுகிறது"</string>
+    <string name="ignore_optimizations_title" msgid="2829637961185027768">"பேட்டரி மேம்படுத்தல்களைத் தவிர்க்க, <xliff:g id="APP">%s</xliff:g>ஐ அனுமதிக்கவா?"</string>
+    <string name="app_list_preference_none" msgid="108006867520327904">"ஏதுமில்லை"</string>
+    <string name="work_profile_usage_access_warning" msgid="8870622842216566692">"இந்தப் பயன்பாட்டின் உபயோக அணுகலை முடக்குவது, பணி சுயவிவரத்தில் உள்ள பயன்பாடுகளுக்கான தரவுப் பயன்பாட்டைக் கண்காணிப்பதிலிருந்து உங்கள் நிர்வாகியைத் தடுக்காது."</string>
+    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"<xliff:g id="COUNT_1">%2$d</xliff:g> இல் <xliff:g id="COUNT_0">%1$d</xliff:g> எழுத்துக்குறிகள் பயன்படுத்தப்பட்டன"</string>
+    <string name="draw_overlay_title" msgid="4003905926278954971">"பிற பயன்பாடுகளின் மேலே செயல்படக்கூடிய பயன்பாடுகள்"</string>
+    <string name="draw_overlay" msgid="9078696044299199938">"பிற பயன்பாடுகளின் இடைமுகத்தின் மேல் செயல்படுதல்"</string>
+    <string name="system_alert_window_settings" msgid="1757821151143694951">"பிற பயன்பாடுகளின் இடைமுகத்தின் மேல் செயல்படுதல்"</string>
+    <string name="system_alert_window_apps_title" msgid="7005760279028569491">"பயன்பாடுகள்"</string>
+    <string name="system_alert_window_access_title" msgid="8811695381437304132">"பிற பயன்பாடுகளின் இடைமுகத்தின் மேல் செயல்படுதல்"</string>
+    <string name="permit_draw_overlay" msgid="6606018549732046201">"பிற பயன்பாடுகளின் மேலே செயல்பட அனுமதி"</string>
+    <string name="app_overlay_permission_preference" msgid="8355410276571387439">"பயன்பாடு மேலே செயல்படுவதற்கான அனுமதி"</string>
+    <string name="allow_overlay_description" msgid="7895191337585827691">"இந்த அனுமதியானது நீங்கள் பயன்படுத்தும் பிற பயன்பாடுகளின் மேலே காட்ட, பயன்பாட்டை அனுமதிக்கிறது மற்றும் இது பிற பயன்பாடுகளில் இடைமுகம் தொடர்பான உங்கள் உபயோகத்தில் குறுக்கிடலாம் அல்லது பிற பயன்பாடுகளில் நீங்கள் எதைப் பார்க்க வேண்டும் என்பதை மாற்றலாம்."</string>
+    <string name="keywords_system_alert_window" msgid="8579673659566564926">"முறைமை விழிப்பூட்டல் சாளரச் செய்தி பிற பயன்பாடுகளின் மேலே செயல்படுதல்"</string>
+    <string name="overlay_settings" msgid="222062091489691363">"பிற பயன்பாடுகளின் இடைமுகத்தின் மேல் செயல்படுதல்"</string>
+    <string name="system_alert_window_summary" msgid="4268867238063922290">"பிற பயன்பாடுகளின் மேல் பகுதியில் செயல்படுவதற்கு, <xliff:g id="COUNT_1">%d</xliff:g> இல் <xliff:g id="COUNT_0">%d</xliff:g> பயன்பாடுகள் அனுமதிக்கப்பட்டுள்ளன"</string>
+    <string name="filter_overlay_apps" msgid="6965969283342557573">"அனுமதி பெற்ற பயன்பாடுகள்"</string>
+    <string name="system_alert_window_on" msgid="2939489395109048888">"அனுமதிக்கப்பட்டது"</string>
+    <string name="system_alert_window_off" msgid="6189115687233061992">"அனுமதிக்கப்படவில்லை"</string>
+    <string name="write_settings" msgid="4797457275727195681">"முறைமை அமைப்புகளை மாற்று"</string>
+    <string name="keywords_write_settings" msgid="6415597272561105138">"முறைமை அமைப்புகளை எழுது மாற்று"</string>
+    <string name="write_settings_summary" msgid="4302268998611412696">"<xliff:g id="COUNT_1">%d</xliff:g> இல் <xliff:g id="COUNT_0">%d</xliff:g> பயன்பாடுகள் முறைமை அமைப்புகளை மாற்ற அனுமதிக்கப்பட்டுள்ளன"</string>
+    <string name="filter_write_settings_apps" msgid="2914615026197322551">"முறைமை அமைப்புகளை மாற்றலாம்"</string>
+    <string name="write_settings_title" msgid="4232152481902542284">"முறைமை அமைப்புகளை மாற்றலாம்"</string>
+    <string name="write_system_settings" msgid="3482913590601096763">"முறைமை அமைப்புகளை மாற்று"</string>
+    <string name="write_settings_preference" msgid="3407383041273067448">"பயன்பாடானது முறைமை அமைப்புகளை மாற்றுவதற்கான அனுமதி"</string>
+    <string name="permit_write_settings" msgid="6393779336656870080">"முறைமை அமைப்புகளை மாற்ற அனுமதி"</string>
+    <string name="write_settings_description" msgid="6868293938839954623">"இது முறைமை அமைப்புகளை மாற்ற, பயன்பாட்டை அனுமதிக்கும்."</string>
+    <string name="write_settings_on" msgid="8230580416068832239">"அனுமதிக்கப்பட்டது"</string>
+    <string name="write_settings_off" msgid="5156104383386336233">"அனுமதிக்கப்படவில்லை"</string>
+    <string name="camera_gesture_title" msgid="1075838577642393011">"கேமராவைத் திறக்க, இருமுறை திருப்புதல்"</string>
+    <string name="camera_gesture_desc" msgid="1831390075255870960">"உங்கள் மணிக்கட்டை இருமுறை திருப்புவதன் மூலம் கேமரா பயன்பாட்டைத் திறக்கலாம்"</string>
+    <string name="camera_double_tap_power_gesture_title" msgid="1651873760405034645">"கேமராவிற்கு பவர் பட்டனை இருமுறை அழுத்துக"</string>
+    <string name="camera_double_tap_power_gesture_desc" msgid="7355664631775680376">"திரையைத் திறக்காமலேயே கேமராவை வேகமாகத் திறக்கும்"</string>
+  <string-array name="color_mode_names">
+    <item msgid="2425514299220523812">"வைபிரன்ட் (இயல்பு)"</item>
+    <item msgid="8446070607501413455">"இயற்கை வண்ணம்"</item>
+    <item msgid="6553408765810699025">"வழக்கமான வண்ணம்"</item>
+  </string-array>
+  <string-array name="color_mode_descriptions">
+    <item msgid="4979629397075120893">"மேம்படுத்தப்பட்ட வண்ணங்கள்"</item>
+    <item msgid="8280754435979370728">"கண்களால் பார்ப்பதைப் போலவே இயற்கையான வண்ணங்கள்"</item>
+    <item msgid="5363960654009010371">"டிஜிட்டல் உள்ளடக்கத்திற்கு ஏற்ப மேம்படுத்தப்பட்ட வண்ணங்கள்"</item>
+  </string-array>
+    <string name="picture_color_mode" msgid="4560755008730283695">"படத்தின் வண்ணப் பயன்முறை"</string>
+    <string name="picture_color_mode_desc" msgid="1141891467675548590">"sRGBஐப் பயன்படுத்தும்"</string>
 </resources>

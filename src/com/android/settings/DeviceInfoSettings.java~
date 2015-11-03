@@ -166,7 +166,26 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
          * Settings is a generic app and should not contain any device-specific
          * info.
          */
+<<<<<<< HEAD
+        final Activity act = getActivity();
 
+        // These are contained by the root preference screen
+        PreferenceGroup parentPreference = getPreferenceScreen();
+        if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
+            Utils.updatePreferenceToSpecificActivityOrRemove(act, parentPreference,
+                    KEY_SYSTEM_UPDATE_SETTINGS,
+                    Utils.UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY);
+        } else {
+            // Remove for secondary users
+            removePreference(KEY_SYSTEM_UPDATE_SETTINGS);
+        }
+
+        // Read platform settings for additional system update setting
+        removePreferenceIfBoolFalse(KEY_UPDATE_SETTING,
+                R.bool.config_additional_system_update_setting_enable);
+
+=======
+>>>>>>> afef85f... Merge branch 'marshmallow-dr-release' of https://android.googlesource.com/platform/packages/apps/Settings into mm
         // Remove manual entry if none present.
         removePreferenceIfBoolFalse(KEY_MANUAL, R.bool.config_show_manual);
 

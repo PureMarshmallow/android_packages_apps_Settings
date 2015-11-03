@@ -353,6 +353,7 @@
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> טביעות אצבעות נרשמו</item>
       <item quantity="one">טביעת אצבע <xliff:g id="COUNT_0">%1$d</xliff:g> נרשמה</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"הגדרה של טביעת אצבע"</string>
     <!-- no translation found for security_settings_fingerprint_enroll_onboard_message (451317492588352122) -->
     <skip />
@@ -373,16 +374,18 @@
     <string name="security_settings_fingerprint_enroll_repeat_message" msgid="8846866512704467036">"הנח את אותה האצבע על חיישן טביעות האצבעות והרם אותה לאחר שתחוש רטט."</string>
     <string name="security_settings_fingerprint_enroll_finish_title" msgid="4798692662828257300">"טביעת האצבע נוספה!"</string>
     <string name="security_settings_fingerprint_enroll_finish_message" msgid="835496875787664316">"כשתראה את הסמל הזה, תוכל להשתמש בטביעת האצבע שלך לצורך זיהוי או אישור רכישה."</string>
-    <!-- no translation found for security_settings_fingerprint_enroll_setup_screen_lock (8205113627804480642) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_done (4014607378328187567) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_title (4360990635212143565) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_message (5053971232594165142) -->
-    <skip />
-    <!-- no translation found for fingerprint_enroll_button_add (6317978977419045463) -->
-    <skip />
+    <string name="setup_fingerprint_enroll_finish_message" msgid="7234264291957984004">"גע בחיישן טביעת האצבע כדי להוציא את המכשיר ממצב שינה ולבטל את הנעילה שלו."</string>
+    <string name="setup_fingerprint_enroll_finish_message_secondary" msgid="7280546429133276374">"כשתראה את הסמל הזה, תוכל להשתמש בטביעת האצבע שלך."</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="6808422329107426923">"האם לדלג על הגדרת טביעת אצבע?"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="274849306857859783">"בחרת להשתמש בטביעת האצבע שלך כאחת מהדרכים שבהן תוכל לבטל את הנעילה בטלפון. אם תדלג על שלב זה עכשיו, תצטרך לבצע את ההגדרה בהמשך. ההגדרה לוקחת רק דקה או שתיים."</string>
+    <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="1195743489835505376">"הגדר נעילת מסך"</string>
+    <string name="security_settings_fingerprint_enroll_done" msgid="4014607378328187567">"סיום"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="1863561601428695160">"אופס. זה לא החיישן הנכון"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="5053971232594165142">"השתמש בחיישן טביעת האצבע במכשיר."</string>
+    <string name="security_settings_fingerprint_enroll_error_dialog_title" msgid="3618021988442639280">"ההרשמה לא הושלמה"</string>
+    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message" msgid="2942551158278899627">"חלף הזמן הקצוב להרשמה באמצעות טביעת אצבע. נסה שוב."</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"ההרשמה באמצעות טביעת אצבע נכשלה. נסה שוב או השתמש באצבע אחרת."</string>
+    <string name="fingerprint_enroll_button_add" msgid="6317978977419045463">"הוסף עוד"</string>
     <string name="fingerprint_enroll_button_next" msgid="6247009337616342759">"הבא"</string>
     <string name="crypt_keeper_settings_title" msgid="4219233835490520414">"הצפנה"</string>
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"הצפן טאבלט"</string>
@@ -1206,6 +1209,7 @@
     <string name="about_settings_summary" msgid="3371517697156165959">"הצג מידע משפטי, סטטוס, גרסת תוכנה"</string>
     <string name="legal_information" msgid="5769301644270604095">"מידע משפטי"</string>
     <string name="contributors_title" msgid="5917703088825286504">"תורמים"</string>
+    <string name="manual" msgid="3025943393642974445">"ידני"</string>
     <string name="regulatory_information" msgid="5695464367088752150">"מידע על תקנות"</string>
     <string name="copyright_title" msgid="865906688917260647">"זכויות יוצרים"</string>
     <string name="license_title" msgid="1990487604356037871">"רישיון"</string>
@@ -1213,6 +1217,8 @@
     <string name="webview_license_title" msgid="2813507464175738967">"‏רישיון WebView במערכת"</string>
     <string name="wallpaper_attributions" msgid="3645880512943433928">"טפטים"</string>
     <string name="wallpaper_attributions_values" msgid="2996183537914690469">"‏ספקים של צילומי לוויין:\n‎©2014 CNES / Astrium‏, DigitalGlobe‏, Bluesky"</string>
+    <string name="settings_manual_activity_title" msgid="8133150693616006051">"ידני"</string>
+    <string name="settings_manual_activity_unavailable" msgid="4752403782883814898">"יש בעיה בטעינת המדריך."</string>
     <string name="settings_license_activity_title" msgid="7553683406244228650">"רשיונות קוד פתוח"</string>
     <string name="settings_license_activity_unavailable" msgid="4210539215951487627">"יש בעיה בטעינת הרישיון."</string>
     <string name="settings_license_activity_loading" msgid="3337535809093591740">"טוען..."</string>
@@ -2477,6 +2483,8 @@
     <string name="keywords_all_apps" msgid="5377153522551809915">"מערכת לבקשה של הורדת אפליקציות"</string>
     <string name="keywords_app_permissions" msgid="8677901415217188314">"אבטחה של הרשאות לאפליקציות"</string>
     <string name="keywords_default_apps" msgid="3581727483175522599">"ברירת מחדל לאפליקציות"</string>
+    <string name="keywords_ignore_optimizations" msgid="946516741848647905">"התעלמות אופטימיזציות שינה אפליקציה המתנה"</string>
+    <string name="keywords_color_mode" msgid="4670570451841540200">"‏דינמי RGB ‏sRGB צבע טבעי רגיל"</string>
     <string name="keywords_lockscreen" msgid="4806191868723291541">"‏החלקה סיסמה קו ביטול נעילה מספר PIN"</string>
     <string name="setup_wifi_nfc_tag" msgid="9028353016222911016">"‏הגדר תג NFC של Wi-Fi"</string>
     <string name="write_tag" msgid="8571858602896222537">"כתוב"</string>
@@ -2756,12 +2764,132 @@
     <skip />
     <string name="default_app" msgid="6864503001385843060">"(ברירת מחדל)"</string>
     <string name="apps_storage" msgid="4353308027210435513">"אחסון אפליקציות"</string>
-    <!-- no translation found for usage_access (5479504953931038165) -->
-    <skip />
-    <!-- no translation found for permit_usage_access (4012876269445832300) -->
-    <skip />
-    <!-- no translation found for app_usage_preference (7065701732733134991) -->
-    <skip />
-    <!-- no translation found for usage_access_description (1470042370563522270) -->
-    <skip />
+    <string name="usage_access" msgid="5479504953931038165">"גישה לנתוני שימוש"</string>
+    <string name="permit_usage_access" msgid="4012876269445832300">"התר גישה לנתוני שימוש"</string>
+    <string name="app_usage_preference" msgid="7065701732733134991">"העדפות לשימוש באפליקציות"</string>
+    <string name="usage_access_description" msgid="1352111094596416795">"גישה לנתוני שימוש מאפשרת לאפליקציה לעקוב אחר האפליקציות האחרות שבהן אתה משתמש ואחר תדירות השימוש בהן. המידע כולל גם את זהות הספק, הגדרות השפה ופרטים אחרים."</string>
+    <string name="memory_settings_title" msgid="7490541005204254222">"זיכרון"</string>
+    <string name="memory_details_title" msgid="8542565326053693320">"פרטי זיכרון"</string>
+    <string name="always_running" msgid="6042448320077429656">"פועלת תמיד (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="sometimes_running" msgid="6611250683037700864">"פועלת מדי פעם (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="rarely_running" msgid="348413460168817458">"פועלת לעתים רחוקות (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="memory_max_use" msgid="6874803757715963097">"מקסימום"</string>
+    <string name="memory_avg_use" msgid="7382015389130622870">"ממוצע"</string>
+    <string name="memory_max_desc" msgid="2861832149718335864">"מקסימום <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_avg_desc" msgid="1551240906596518412">"<xliff:g id="MEMORY">%1$s</xliff:g> בממוצע"</string>
+    <string name="memory_use_running_format" msgid="4172488041800743760">"<xliff:g id="MEMORY">%1$s</xliff:g> / <xliff:g id="RUNNING">%2$s</xliff:g>"</string>
+    <string name="process_format" msgid="77905604092541454">"<xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="COUNT">%2$d</xliff:g>)"</string>
+    <string name="high_power_apps" msgid="3459065925679828230">"אופטימיזציה של סוללה"</string>
+    <string name="high_power_filter_on" msgid="3222265297576680099">"לא בוצעה אופטימיזציה"</string>
+    <string name="high_power_on" msgid="3382367497549906927">"מתעלמת מהאופטימיזציה של הסוללה"</string>
+    <string name="high_power_off" msgid="3393904131961263278">"מבצעת אופטימיזציה לשימוש בסוללה"</string>
+    <string name="high_power_system" msgid="7362862974428225301">"אופטימיזציה של סוללה אינה זמינה"</string>
+    <string name="high_power_desc" msgid="6283926163708585760">"אל תפעיל אופטימיזציה של הסוללה. הסוללה עשויה להתרוקן מהר יותר."</string>
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="two">ל-<xliff:g id="COUNT">%d</xliff:g> אפליקציות מותר להתעלם מהאופטימיזציה של הסוללה</item>
+      <item quantity="many">ל-<xliff:g id="COUNT">%d</xliff:g> אפליקציות מותר להתעלם מהאופטימיזציה של הסוללה</item>
+      <item quantity="other">ל-<xliff:g id="COUNT">%d</xliff:g> אפליקציות מותר להתעלם מהאופטימיזציה של הסוללה</item>
+      <item quantity="one">לאפליקציה אחת מותר להתעלם מהאופטימיזציה של הסוללה</item>
+    </plurals>
+    <string name="high_power_prompt_title" msgid="4257734526819699048">"האם להתעלם מאופטימיזציות של הסוללה?"</string>
+    <string name="high_power_prompt_body" msgid="4072587909486730876">"האם להתיר לאפליקציה <xliff:g id="APP_NAME">%1$s</xliff:g> להישאר מחוברת ברקע? מצב זה עשוי להגביר את צריכת סוללה."</string>
+    <string name="battery_summary" msgid="101415762036784289">"שימוש ב-<xliff:g id="PERCENTAGE">%1$d</xliff:g>%% מאז הטעינה המלאה האחרונה"</string>
+    <string name="no_battery_summary" msgid="3528036835462846814">"לא נעשה שימוש בסוללה מאז הטעינה המלאה האחרונה"</string>
+    <string name="app_notification_preferences" msgid="1599319335092722613">"הגדרות אפליקציה"</string>
+    <string name="system_ui_settings" msgid="579824306467081123">"‏הצג את SystemUI Tuner"</string>
+    <string name="additional_permissions" msgid="6463784193877056080">"הרשאות נוספות"</string>
+    <string name="additional_permissions_more" msgid="3538612272673191451">"עוד <xliff:g id="COUNT">%1$d</xliff:g>"</string>
+    <string name="usb_use_charging_only" msgid="167707234832117768">"טעינה"</string>
+    <string name="usb_use_charging_only_desc" msgid="3066256793008540627">"רק לטעינת המכשיר"</string>
+    <string name="usb_use_power_only" msgid="6304554004177083963">"מקור חשמל"</string>
+    <string name="usb_use_power_only_desc" msgid="708134382305728112">"הטען את המכשיר האחר המחובר"</string>
+    <string name="usb_use_file_transfers" msgid="6978904665877785548">"העברות קבצים"</string>
+    <string name="usb_use_file_transfers_desc" msgid="1663579896876922124">"‏העבר קבצים אל Windows או Mac ‏(MTP)"</string>
+    <string name="usb_use_photo_transfers" msgid="8276445551694259039">"‏העברת תמונות (PTP)"</string>
+    <string name="usb_use_photo_transfers_desc" msgid="2963034811151325996">"‏העברת תמונות או קבצים אם MTP אינו נתמך (PTP)"</string>
+    <string name="usb_use_MIDI" msgid="5116404702692483166">"MIDI"</string>
+    <string name="usb_use_MIDI_desc" msgid="6895383550910152384">"‏השתמש במכשיר לקלט MIDI"</string>
+    <string name="usb_use" msgid="3372728031108932425">"‏השתמש ב-USB בשביל"</string>
+    <string name="inactive_apps_title" msgid="1317817863508274533">"אפליקציות לא פעילות"</string>
+    <string name="inactive_app_inactive_summary" msgid="6768756967594202411">"לא פעילה. גע כדי להחליף."</string>
+    <string name="inactive_app_active_summary" msgid="4512911571954375968">"פעילה. גע כדי להחליף."</string>
+    <string name="assist_access_context_title" msgid="2269032346698890257">"שימוש בטקסט המופיע במסך"</string>
+    <string name="assist_access_context_summary" msgid="1991421283142279560">"התר לאפליקציית האסיסטנט לגשת אל תוכן במסך, כמו טקסט"</string>
+    <string name="assist_access_screenshot_title" msgid="4034721336291215819">"שימוש בצילום מסך"</string>
+    <string name="assist_access_screenshot_summary" msgid="6761636689013259901">"התר לאפליקציית האסיסטנט לגשת אל צילום של המסך"</string>
+    <string name="assist_footer" msgid="1982791172085896864">"אפליקציות אסיסטנט יכולות לעזור לך בהתבסס על מידע המופיע במסך שאתה מציג. כדי לספק סיוע משולב, אפליקציות מסוימות תומכות בשירותי מפעיל אפליקציות ובקלט קולי."</string>
+    <string name="average_memory_use" msgid="829566450150198512">"שימוש ממוצע בזיכרון"</string>
+    <string name="maximum_memory_use" msgid="7493720799710132496">"שימוש מקסימלי בזיכרון"</string>
+    <string name="memory_usage" msgid="1781358557214390033">"שימוש בזיכרון"</string>
+    <string name="app_list_memory_use" msgid="6987417883876419338">"שימוש על ידי אפליקציות"</string>
+    <string name="memory_details" msgid="5943436005716991782">"פרטים"</string>
+    <string name="memory_use_summary" msgid="5608257211903075754">"בשלוש השעות האחרונות נעשה בממוצע שימוש ב-<xliff:g id="SIZE">%1$s</xliff:g> מהזיכרון"</string>
+    <string name="no_memory_use_summary" msgid="2016900536806235588">"לא נעשה שימוש בזיכרון בשלוש השעות האחרונות"</string>
+    <string name="sort_avg_use" msgid="3998036180505143129">"מיין לפי שימוש ממוצע"</string>
+    <string name="sort_max_use" msgid="4629247978290075124">"מיין לפי שימוש מקסימלי"</string>
+    <string name="memory_performance" msgid="5661005192284103281">"ביצועים"</string>
+    <string name="total_memory" msgid="2017287600738630165">"סך כל הזיכרון"</string>
+    <string name="average_used" msgid="5338339266517245782">"שימוש ממוצע (%)"</string>
+    <string name="free_memory" msgid="4003936141603549746">"פנוי"</string>
+    <string name="memory_usage_apps" msgid="5650192998273294098">"זיכרון בשימוש על ידי אפליקציות"</string>
+    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
+      <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
+      <item quantity="one">אפליקציה אחת השתמשה בזיכרון ב-<xliff:g id="DURATION_0">%2$s</xliff:g> האחרונות</item>
+    </plurals>
+    <string name="running_frequency" msgid="6622624669948277693">"תדירות"</string>
+    <string name="memory_maximum_usage" msgid="6513785462055278341">"שימוש מקסימלי"</string>
+    <string name="no_data_usage" msgid="9131454024293628063">"לא נעשה שימוש בנתונים"</string>
+    <string name="zen_access_warning_dialog_title" msgid="1198189958031157142">"האם להתיר ל-<xliff:g id="APP">%1$s</xliff:g> לגשת אל \'נא לא להפריע\'?"</string>
+    <string name="zen_access_warning_dialog_summary" msgid="4015885767653010873">"האפליקציה תוכל להפעיל או לכבות את \'נא לא להפריע\' ולבצע שינויים בהגדרות קשורות."</string>
+    <string name="ignore_optimizations_on" msgid="6915689518016285116">"אל תבצע אופטימיזציה"</string>
+    <string name="ignore_optimizations_off" msgid="6153196256410296835">"בצע אופטימיזציה"</string>
+    <string name="ignore_optimizations_on_desc" msgid="2321398930330555815">"הסוללה עשויה להתרוקן מהר יותר"</string>
+    <string name="ignore_optimizations_off_desc" msgid="5255731062045426544">"מומלץ להארכת חיי הסוללה"</string>
+    <string name="ignore_optimizations_title" msgid="2829637961185027768">"האם להתיר ל-<xliff:g id="APP">%s</xliff:g> להתעלם מאופטימיזציה של הסוללה?"</string>
+    <string name="app_list_preference_none" msgid="108006867520327904">"ללא"</string>
+    <string name="work_profile_usage_access_warning" msgid="8870622842216566692">"כיבוי גישת השימוש בשביל האפליקציה הזו לא מונע ממנהל המערכת לעקוב אחר השימוש בנתונים בשביל אפליקציות בפרופיל העבודה שלך."</string>
+    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"נעשה שימוש ב-<xliff:g id="COUNT_0">%1$d</xliff:g> מתוך <xliff:g id="COUNT_1">%2$d</xliff:g> תווים"</string>
+    <string name="draw_overlay_title" msgid="4003905926278954971">"אפליקציות שיכולות להופיע מעל אפליקציות אחרות"</string>
+    <string name="draw_overlay" msgid="9078696044299199938">"הצגה מעל אפליקציות אחרות"</string>
+    <string name="system_alert_window_settings" msgid="1757821151143694951">"הצגה מעל אפליקציות אחרות"</string>
+    <string name="system_alert_window_apps_title" msgid="7005760279028569491">"אפליקציות"</string>
+    <string name="system_alert_window_access_title" msgid="8811695381437304132">"הצגה מעל אפליקציות אחרות"</string>
+    <string name="permit_draw_overlay" msgid="6606018549732046201">"התר הצגה מעל אפליקציות אחרות"</string>
+    <string name="app_overlay_permission_preference" msgid="8355410276571387439">"הרשאה להצגת האפליקציה למעלה"</string>
+    <string name="allow_overlay_description" msgid="7895191337585827691">"הרשאה זו מאפשרת הצגה של האפליקציה מעל אפליקציות אחרות שנמצאות בשימוש, ועשויה להפריע לשימוש שלך בממשק של אפליקציות אחרות או לשנות את מה שאתה חושב שאתה רואה באפליקציות אחרות."</string>
+    <string name="keywords_system_alert_window" msgid="8579673659566564926">"תיבת הדו שיח של חלון ההתראה מוצגת מעל אפליקציות אחרות"</string>
+    <string name="overlay_settings" msgid="222062091489691363">"הצגה מעל אפליקציות אחרות"</string>
+    <string name="system_alert_window_summary" msgid="4268867238063922290">"<xliff:g id="COUNT_0">%d</xliff:g> מתוך <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות רשאיות להיות מוצגות מעל אפליקציות אחרות"</string>
+    <string name="filter_overlay_apps" msgid="6965969283342557573">"אפליקציות עם הרשאה"</string>
+    <string name="system_alert_window_on" msgid="2939489395109048888">"כן"</string>
+    <string name="system_alert_window_off" msgid="6189115687233061992">"לא"</string>
+    <string name="write_settings" msgid="4797457275727195681">"שינוי הגדרות המערכת"</string>
+    <string name="keywords_write_settings" msgid="6415597272561105138">"שינוי הגדרות המערכת באמצעות כתיבה"</string>
+    <string name="write_settings_summary" msgid="4302268998611412696">"<xliff:g id="COUNT_0">%d</xliff:g> מתוך <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות מורשות לשנות את הגדרות המערכת"</string>
+    <string name="filter_write_settings_apps" msgid="2914615026197322551">"יכולות לשנות את הגדרות המערכת"</string>
+    <string name="write_settings_title" msgid="4232152481902542284">"יכולות לשנות את הגדרות המערכת"</string>
+    <string name="write_system_settings" msgid="3482913590601096763">"שינוי הגדרות המערכת"</string>
+    <string name="write_settings_preference" msgid="3407383041273067448">"הרשאת אפליקציה לשנות את הגדרות המערכת"</string>
+    <string name="permit_write_settings" msgid="6393779336656870080">"התר שינוי של הגדרות המערכת"</string>
+    <string name="write_settings_description" msgid="6868293938839954623">"ההרשאה הזו מתירה לאפליקציה לשנות את הגדרות המערכת."</string>
+    <string name="write_settings_on" msgid="8230580416068832239">"כן"</string>
+    <string name="write_settings_off" msgid="5156104383386336233">"לא"</string>
+    <string name="camera_gesture_title" msgid="1075838577642393011">"סיבוב כפול להפעלת המצלמה"</string>
+    <string name="camera_gesture_desc" msgid="1831390075255870960">"פתח את אפליקציית המצלמה על ידי סיבוב כפול של פרק כף היד"</string>
+    <string name="camera_double_tap_power_gesture_title" msgid="1651873760405034645">"לחץ על לחצן ההפעלה פעמיים כדי לפתוח את המצלמה"</string>
+    <string name="camera_double_tap_power_gesture_desc" msgid="7355664631775680376">"הפעל את המצלמה במהירות מבלי לבטל את נעילת הטלפון"</string>
+  <string-array name="color_mode_names">
+    <item msgid="2425514299220523812">"דינמי (ברירת מחדל)"</item>
+    <item msgid="8446070607501413455">"טבעי"</item>
+    <item msgid="6553408765810699025">"רגיל"</item>
+  </string-array>
+  <string-array name="color_mode_descriptions">
+    <item msgid="4979629397075120893">"צבעים משופרים"</item>
+    <item msgid="8280754435979370728">"צבעים טבעיים כפי שהם נראים לעין"</item>
+    <item msgid="5363960654009010371">"צבעים מותאמים באופן אופטימלי לתוכן דיגיטלי"</item>
+  </string-array>
+    <string name="picture_color_mode" msgid="4560755008730283695">"מצב צבע התמונה"</string>
+    <string name="picture_color_mode_desc" msgid="1141891467675548590">"‏שימוש ב-sRGB"</string>
 </resources>

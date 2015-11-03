@@ -349,6 +349,7 @@
       <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਰਜ ਕੀਤੇ</item>
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਰਜ ਕੀਤੇ</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਟਅਪ"</string>
     <!-- no translation found for security_settings_fingerprint_enroll_onboard_message (451317492588352122) -->
     <skip />
@@ -369,16 +370,18 @@
     <string name="security_settings_fingerprint_enroll_repeat_message" msgid="8846866512704467036">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੰਵੇਦਕ ਤੇ ਉਹੀ ਉਂਗਲ ਰੱਖੋ ਅਤੇ ਇੱਕ ਵਾਈਬ੍ਰੇਸ਼ਨ ਮਹਿਸੂਸ ਹੋਣ ਤੋਂ ਬਾਅਦ ਹਟਾ ਲਓ।"</string>
     <string name="security_settings_fingerprint_enroll_finish_title" msgid="4798692662828257300">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਜੋੜਿਆ ਗਿਆ!"</string>
     <string name="security_settings_fingerprint_enroll_finish_message" msgid="835496875787664316">"ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਇਹ ਆਈਕਨ ਦੇਖੋ, ਤਾਂ ਤੁਸੀਂ ਪਛਾਣ ਲਈ ਜਾਂ ਇੱਕ ਖ਼ਰੀਦ ਦਾ ਅਧਿਕਾਰ ਦੇਣ ਲਈ ਆਪਣਾ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤ ਸਕਦੇ ਹੋ।"</string>
-    <!-- no translation found for security_settings_fingerprint_enroll_setup_screen_lock (8205113627804480642) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_done (4014607378328187567) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_title (4360990635212143565) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_message (5053971232594165142) -->
-    <skip />
-    <!-- no translation found for fingerprint_enroll_button_add (6317978977419045463) -->
-    <skip />
+    <string name="setup_fingerprint_enroll_finish_message" msgid="7234264291957984004">"ਆਪਣੀ ਡਿਵਾਈਸ ਨੂੰ ਸਕਿਰਿਆ ਅਤੇ ਅਨਲੌਕ ਕਰਨ ਲਈ ਕੇਵਲ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੰਵੇਦਕ ਨੂੰ ਛੋਹਵੋ।"</string>
+    <string name="setup_fingerprint_enroll_finish_message_secondary" msgid="7280546429133276374">"ਜਦੋਂ ਤੁਸੀਂ ਇਹ ਆਈਕਨ ਦੇਖੋ, ਤਾਂ ਤੁਸੀਂ ਆਪਣਾ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤ ਸਕਦੇ ਹੋ।"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="6808422329107426923">"ਕੀ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਟਅਪ ਛੱਡਣਾ ਹੈ?"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="274849306857859783">"ਤੁਸੀਂ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਦਾ ਇੱਕ ਤਰੀਕਾ ਆਪਣੇ ਉਂਗਲਾਂ ਦੇ ਨਿਸ਼ਾਨ ਦਾ ਉਪਯੋਗ ਕਰਨਾ ਚੁਣਿਆ ਹੈ। ਜੇਕਰ ਤੁਸੀਂ ਹੁਣੇ ਇਸਨੂੰ ਛੱਡਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਇਹ ਬਾਅਦ ਵਿੱਚ ਸਥਾਪਿਤ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ। ਸੈੱਟਅੱਪ ਸਿਰਫ਼ ਇੱਕ ਮਿੰਟ ਲੈਂਦਾ ਹੈ।"</string>
+    <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="1195743489835505376">"ਸਕ੍ਰੀਨ ਲੌਕ ਸੈੱਟਅੱਪ ਕਰੋ"</string>
+    <string name="security_settings_fingerprint_enroll_done" msgid="4014607378328187567">"ਸੰਪੂਰਣ"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="1863561601428695160">"ਓਹੋ, ਉਹ ਸੈਂਸਰ ਨਹੀਂ ਹੈ"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="5053971232594165142">"ਆਪਣੀ ਡਿਵਾਈਸ \'ਤੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਂਸਰ ਦਾ ਉਪਯੋਗ ਕਰੋ।"</string>
+    <string name="security_settings_fingerprint_enroll_error_dialog_title" msgid="3618021988442639280">"ਦਾਖਲਾ ਪੂਰਾ ਨਾ ਕੀਤਾ ਗਿਆ"</string>
+    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message" msgid="2942551158278899627">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਾਖ਼ਲੇ ਦੀ ਸਮਾਂ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਾਖ਼ਲੇ ਨੇ ਕੰਮ ਨਹੀਂ ਕੀਤਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਕੋਈ ਵੱਖਰੀ ਉਂਗਲ ਉਪਯੋਗ ਕਰੋ।"</string>
+    <string name="fingerprint_enroll_button_add" msgid="6317978977419045463">"ਕੋਈ ਹੋਰ ਜੋੜੋ"</string>
     <string name="fingerprint_enroll_button_next" msgid="6247009337616342759">"ਅਗਲਾ"</string>
     <string name="crypt_keeper_settings_title" msgid="4219233835490520414">"ਐਨਕ੍ਰਿਪਸ਼ਨ"</string>
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"ਟੈਬਲੇਟ ਐਨਕ੍ਰਿਪਟ ਕਰੋ"</string>
@@ -1189,6 +1192,7 @@
     <string name="about_settings_summary" msgid="3371517697156165959">"ਕਨੂੰਨੀ ਜਾਣਕਾਰੀ, ਸਥਿਤੀ, ਸੌਫਟਵੇਅਰ ਵਰਜਨ ਦੇਖੋ"</string>
     <string name="legal_information" msgid="5769301644270604095">"ਕਨੂੰਨੀ ਜਾਣਕਾਰੀ"</string>
     <string name="contributors_title" msgid="5917703088825286504">"ਸਹਿਯੋਗੀ"</string>
+    <string name="manual" msgid="3025943393642974445">"ਮੈਨੁਅਲ"</string>
     <string name="regulatory_information" msgid="5695464367088752150">"ਨਿਯਾਮਕ ਜਾਣਕਾਰੀ"</string>
     <string name="copyright_title" msgid="865906688917260647">"ਕਾਪੀਰਾਈਟ"</string>
     <string name="license_title" msgid="1990487604356037871">"ਲਸੰਸ"</string>
@@ -1196,6 +1200,8 @@
     <string name="webview_license_title" msgid="2813507464175738967">"ਸਿਸਟਮ WebView ਲਸੰਸ"</string>
     <string name="wallpaper_attributions" msgid="3645880512943433928">"ਵਾਲਪੇਪਰ"</string>
     <string name="wallpaper_attributions_values" msgid="2996183537914690469">"ਸੈਟੇਲਾਈਟ ਇਮੇਜਰੀ ਪ੍ਰਦਾਤਾ:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+    <string name="settings_manual_activity_title" msgid="8133150693616006051">"ਮੈਨੁਅਲ"</string>
+    <string name="settings_manual_activity_unavailable" msgid="4752403782883814898">"ਮੈਨੁਅਲ ਲੋਡ ਕਰਨ ਵਿੱਚ ਇੱਕ ਸਮੱਸਿਆ ਹੋਈ ਸੀ।"</string>
     <string name="settings_license_activity_title" msgid="7553683406244228650">"ਓਪਨ ਸ੍ਰੋਤ ਲਸੰਸ"</string>
     <string name="settings_license_activity_unavailable" msgid="4210539215951487627">"ਲਸੰਸ ਲੋਡ ਕਰਨ ਵਿੱਚ ਇੱਕ ਸਮੱਸਿਆ ਹੋਈ ਸੀ।"</string>
     <string name="settings_license_activity_loading" msgid="3337535809093591740">"ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ…"</string>
@@ -2465,6 +2471,8 @@
     <string name="keywords_all_apps" msgid="5377153522551809915">"ਐਪਸ ਡਾਊਨਲੋਡ ਐਪਲੀਕੇਸ਼ਨ ਸਿਸਟਮ"</string>
     <string name="keywords_app_permissions" msgid="8677901415217188314">"ਐਪ ਅਨੁਮਤੀਆਂ ਦੀ ਸੁਰੱਖਿਆ"</string>
     <string name="keywords_default_apps" msgid="3581727483175522599">"ਡਿਫੌਲਟ ਐਪਸ"</string>
+    <string name="keywords_ignore_optimizations" msgid="946516741848647905">"ਅਨੁਕੂਲਤਾ ਡੋਜ਼ ਐਪ ਸਟੈਂਡਬਾਇ ਦੀ ਉਪੇਖਿਆ ਕਰੋ"</string>
+    <string name="keywords_color_mode" msgid="4670570451841540200">"ਚਮਕੀਲਾ rgb srgb ਰੰਗ ਕੁਦਰਤੀ ਸਟੈਂਡਰਡ"</string>
     <string name="keywords_lockscreen" msgid="4806191868723291541">"ਸਲਾਈਡ ਪਾਸਵਰਡ ਪੈਟਰਨ pin"</string>
     <string name="setup_wifi_nfc_tag" msgid="9028353016222911016">"Wi-Fi NFC ਟੈਗ ਸੈਟ ਅਪ ਕਰੋ"</string>
     <string name="write_tag" msgid="8571858602896222537">"ਲਿਖੋ"</string>
@@ -2723,12 +2731,128 @@
     <skip />
     <string name="default_app" msgid="6864503001385843060">"(ਡਿਫ਼ੌਲਟ)"</string>
     <string name="apps_storage" msgid="4353308027210435513">"ਐਪਸ ਸਟੋਰੇਜ਼"</string>
-    <!-- no translation found for usage_access (5479504953931038165) -->
-    <skip />
-    <!-- no translation found for permit_usage_access (4012876269445832300) -->
-    <skip />
-    <!-- no translation found for app_usage_preference (7065701732733134991) -->
-    <skip />
-    <!-- no translation found for usage_access_description (1470042370563522270) -->
-    <skip />
+    <string name="usage_access" msgid="5479504953931038165">"ਉਪਯੋਗਤਾ ਐਕਸੈਸ"</string>
+    <string name="permit_usage_access" msgid="4012876269445832300">"ਪਰਮਿਟ ਉਪਭੋਗਤਾ ਐਕਸੈਸ"</string>
+    <string name="app_usage_preference" msgid="7065701732733134991">"ਐਪ ਉਪਯੋਗਤਾ ਪਸੰਦ"</string>
+    <string name="usage_access_description" msgid="1352111094596416795">"ਉਪਯੋਗਤਾ ਐਕਸੈਸ ਤੁਸੀਂ ਕਿਹੜੀਆਂ ਐਪਸ ਦਾ ਉਪਯੋਗ ਕਰ ਰਹੇ ਹੋ ਅਤੇ ਕਿੰਨੀ ਵਾਰੀ, ਇਸਦੇ ਨਾਲ-ਨਾਲ ਆਪਣੇ ਕੈਰੀਅਰ, ਭਾਸ਼ਾ ਸੈੱਟਿੰਗਜ਼, ਅਤੇ ਹੋਰ ਵੇਰਵੇ ਨੂੰ ਟ੍ਰੈਕ ਕਰਨ ਲਈ ਕਿਸੇ ਐਪ ਨੂੰ ਅਨੁਮਤੀ ਦਿੰਦਾ ਹੈ।"</string>
+    <string name="memory_settings_title" msgid="7490541005204254222">"ਮੈਮੋਰੀ"</string>
+    <string name="memory_details_title" msgid="8542565326053693320">"ਮੈਮਰੀ ਵੇਰਵੇ"</string>
+    <string name="always_running" msgid="6042448320077429656">"ਹਮੇਸ਼ਾਂ ਚੱਲਦਾ ਹੈ (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="sometimes_running" msgid="6611250683037700864">"ਕਦੇ-ਕਦਾਈਂ ਚੱਲਦਾ ਹੈ (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="rarely_running" msgid="348413460168817458">"ਬਹੁਤ ਹੀ ਘੱਟ ਚੱਲਦਾ ਹੈ (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="memory_max_use" msgid="6874803757715963097">"ਅਧਿਕਤਮ"</string>
+    <string name="memory_avg_use" msgid="7382015389130622870">"ਔਸਤ"</string>
+    <string name="memory_max_desc" msgid="2861832149718335864">"ਅਧਿਕਤਮ <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_avg_desc" msgid="1551240906596518412">"ਔਸਤ <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_use_running_format" msgid="4172488041800743760">"<xliff:g id="MEMORY">%1$s</xliff:g> / <xliff:g id="RUNNING">%2$s</xliff:g>"</string>
+    <string name="process_format" msgid="77905604092541454">"<xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="COUNT">%2$d</xliff:g>)"</string>
+    <string name="high_power_apps" msgid="3459065925679828230">"ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ"</string>
+    <string name="high_power_filter_on" msgid="3222265297576680099">"ਅਨੁਕੂਲਿਤ ਨਹੀਂ ਕੀਤਾ ਗਿਆ"</string>
+    <string name="high_power_on" msgid="3382367497549906927">"ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਦੀ ਉਪੇਖਿਆ ਕਰ ਰਿਹਾ ਹੈ"</string>
+    <string name="high_power_off" msgid="3393904131961263278">"ਬੈਟਰੀ ਦੇ ਉਪਯੋਗ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰ ਰਿਹਾ ਹੈ"</string>
+    <string name="high_power_system" msgid="7362862974428225301">"ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਉਪਲਬਧ ਨਹੀਂ"</string>
+    <string name="high_power_desc" msgid="6283926163708585760">"ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਨੂੰ ਲਾਗੂ ਨਾ ਕਰੋ। ਤੁਹਾਡੀ ਬਟਰੀ ਨੂੰ ਹੋਰ ਵੀ ਛੇਤੀ ਖ਼ਤਮ ਕਰ ਸਕਦਾ ਹੈ।"</string>
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> ਐਪਸ ਨੇ ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਦੀ ਉਪੇਖਿਆ ਕਰਨ ਦੀ ਅਨੁਮਤੀ ਦਿੱਤੀਆਂ</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ਐਪਸ ਨੇ ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਦੀ ਉਪੇਖਿਆ ਕਰਨ ਦੀ ਅਨੁਮਤੀ ਦਿੱਤੀਆਂ</item>
+    </plurals>
+    <string name="high_power_prompt_title" msgid="4257734526819699048">"ਕੀ ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਦੀ ਉਪੇਖਿਆ ਕਰਨੀ ਹੈ?"</string>
+    <string name="high_power_prompt_body" msgid="4072587909486730876">"ਕੀ ਐਪ <xliff:g id="APP_NAME">%1$s</xliff:g> ਨੂੰ ਪਿਛੋਕੜ ਵਿੱਚ ਰੱਖਣ ਦੇਣਾ ਹੈ? ਇਹ ਵੱਧ ਬੈਟਰੀ ਵਰਤ ਸਕਦਾ ਹੈ।"</string>
+    <string name="battery_summary" msgid="101415762036784289">"ਪਿਛਲੇ ਸੰਪੂਰਣ ਚਾਰਤ ਤੋਂ ਬਾਅਦ <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% ਉਪਯੋਗ"</string>
+    <string name="no_battery_summary" msgid="3528036835462846814">"ਪਿਛਲੇ ਸੰਪੂਰਣ ਚਾਰਤ ਤੋਂ ਬਾਅਦ ਬੈਟਰੀ ਦਾ ਕੋਈ ਉਪਯੋਗ ਨਹੀਂ"</string>
+    <string name="app_notification_preferences" msgid="1599319335092722613">"ਐਪ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="system_ui_settings" msgid="579824306467081123">"SystemUI ਟਿਊਨਰ ਦਿਖਾਓ"</string>
+    <string name="additional_permissions" msgid="6463784193877056080">"ਅਤਿਰਿਕਤ ਅਨੁਮਤੀਆਂ"</string>
+    <string name="additional_permissions_more" msgid="3538612272673191451">"<xliff:g id="COUNT">%1$d</xliff:g> ਹੋਰ"</string>
+    <string name="usb_use_charging_only" msgid="167707234832117768">"ਚਾਰਜਿੰਗ"</string>
+    <string name="usb_use_charging_only_desc" msgid="3066256793008540627">"ਕੇਵਲ ਇਸ ਜੰਤਰ ਨੂੰ ਚਾਰਜ ਕਰੋ"</string>
+    <string name="usb_use_power_only" msgid="6304554004177083963">"ਬਿਜਲੀ ਸਪਲਾਈ"</string>
+    <string name="usb_use_power_only_desc" msgid="708134382305728112">"ਹੋਰ ਜੁੜੀਆਂ ਡਿਵਾਈਸਾਂ ਨੂੰ ਚਾਰਜ ਕਰੋ"</string>
+    <string name="usb_use_file_transfers" msgid="6978904665877785548">"ਫਾਈਲ ਤਬਾਦਲਾ"</string>
+    <string name="usb_use_file_transfers_desc" msgid="1663579896876922124">"Windows ਜਾਂ ਮੈਕ (MTP) ਨੂੰ ਫ਼ਾਈਲਾਂ ਦਾ ਤਬਾਦਲਾ ਕਰੋ"</string>
+    <string name="usb_use_photo_transfers" msgid="8276445551694259039">"ਫੋਟੋ ਤਬਾਦਲਾ (PTP)"</string>
+    <string name="usb_use_photo_transfers_desc" msgid="2963034811151325996">"ਫੋਟੋਆਂ ਜਾਂ ਫ਼ਾਈਲਾਂ ਦਾ ਤਬਾਦਲਾ ਕਰੋ ਜੇਕਰ MTP (PTP) ਨੂੰ ਸਹਿਯੋਗ ਨਹੀਂ ਕਰਦਾ"</string>
+    <string name="usb_use_MIDI" msgid="5116404702692483166">"MIDI"</string>
+    <string name="usb_use_MIDI_desc" msgid="6895383550910152384">"MIDI ਇੰਪੁੱਟ ਲਈ ਡਿਵਾਈਸ ਵਰਤੋਂ"</string>
+    <string name="usb_use" msgid="3372728031108932425">"ਇਸ ਲਈ USB ਦਾ ਉਪਯੋਗ ਕਰੋ"</string>
+    <string name="inactive_apps_title" msgid="1317817863508274533">"ਕਿਰਿਆਸ਼ੀਲ ਐਪਸ"</string>
+    <string name="inactive_app_inactive_summary" msgid="6768756967594202411">"ਅਕਿਰਿਆਸ਼ੀਲ। ਟੌਗਲ ਕਰਨ ਲਈ ਸਪਰਸ਼ ਕਰੋ।"</string>
+    <string name="inactive_app_active_summary" msgid="4512911571954375968">"ਕਿਰਿਆਸ਼ੀਲ। ਟੌਗਲ ਕਰਨ ਲਈ ਸਪਰਸ਼ ਕਰੋ।"</string>
+    <string name="assist_access_context_title" msgid="2269032346698890257">"ਸਕ੍ਰੀਨ ਤੋਂ ਟੈਕਸਟ ਵਰਤੋ"</string>
+    <string name="assist_access_context_summary" msgid="1991421283142279560">"ਸਹਾਇਕ ਐਪ ਨੂੰ ਟੈਕਸਟ ਦੇ ਤੌਰ ਤੇ ਸਕ੍ਰੀਨ ਸਮੱਗਰੀ ਤੱਕ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਦਿਓ"</string>
+    <string name="assist_access_screenshot_title" msgid="4034721336291215819">"ਸਕ੍ਰੀਨਸ਼ੌਟ ਵਰਤੋ"</string>
+    <string name="assist_access_screenshot_summary" msgid="6761636689013259901">"ਸਹਾਇਕ ਐਪ ਨੂੰ ਸਕ੍ਰੀਨ ਦੇ ਇੱਕ ਚਿੱਤਰ ਤੱਕ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਦਿਓ"</string>
+    <string name="assist_footer" msgid="1982791172085896864">"ਸਹਾਇਕ ਐਪ ਤੁਹਾਡੇ ਵੱਲੋਂ ਦੇਖੀ ਜਾ ਰਹੀ ਸਕ੍ਰੀਨ ਤੋਂ ਪ੍ਰਾਪਤ ਜਾਣਕਾਰੀ ਦੇ ਆਧਾਰ ਤੇ ਤੁਹਾਡੀ ਸਹਾਇਤਾ ਕਰ ਸਕਦਾ ਹੈ। ਕੁਝ ਐਪਸ ਤੁਹਾਨੂੰ ਏਕੀਕ੍ਰਿਤ ਸਹਾਇਤਾ ਦੇਣ ਲਈ ਲੌਂਚਰ ਅਤੇ ਵੌਇਸ ਇਨਪੁਟ ਸੇਵਾਵਾਂ ਦੋਵਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦੇ ਹਨ।"</string>
+    <string name="average_memory_use" msgid="829566450150198512">"ਔਸਤ ਮੈਮਰੀ ਵਰਤੋਂ"</string>
+    <string name="maximum_memory_use" msgid="7493720799710132496">"ਅਧਿਕਤਮ ਮੈਮਰੀ ਵਰਤੋਂ"</string>
+    <string name="memory_usage" msgid="1781358557214390033">"ਮੈਮੋਰੀ ਉਪਯੋਗਤਾ"</string>
+    <string name="app_list_memory_use" msgid="6987417883876419338">"ਐਪ ਉਪਯੋਗਤਾ"</string>
+    <string name="memory_details" msgid="5943436005716991782">"ਵੇਰਵੇ"</string>
+    <string name="memory_use_summary" msgid="5608257211903075754">"ਪਿੱਛਲੇ 3 ਘੰਟਿਆਂ ਵਿੱਚ ਉਪਯੋਗ ਕੀਤੀ <xliff:g id="SIZE">%1$s</xliff:g> ਔਸਤ ਮੈਮੋਰੀ"</string>
+    <string name="no_memory_use_summary" msgid="2016900536806235588">"ਪਿੱਛਲੇ 3 ਘੰਟਿਆਂ ਵਿੱਚ ਕੋਈ ਵੀ ਮੈਮੋਰੀ ਉਪਯੋਗ ਨਹੀਂ ਕੀਤੀ ਗਈ"</string>
+    <string name="sort_avg_use" msgid="3998036180505143129">"ਔਸਤ ਵਰਤੋਂ ਮੁਤਾਬਕ ਛਾਂਟੋ"</string>
+    <string name="sort_max_use" msgid="4629247978290075124">"ਅਧਿਕਤਮ ਵਰਤੋਂ ਮੁਤਾਬਕ ਛਾਂਟੋ"</string>
+    <string name="memory_performance" msgid="5661005192284103281">"ਪ੍ਰਦਰਸ਼ਨ"</string>
+    <string name="total_memory" msgid="2017287600738630165">"ਕੁੱਲ ਮੈਮਰੀ"</string>
+    <string name="average_used" msgid="5338339266517245782">"ਔਸਤ ਵਰਤੀ ਗਈ (%)"</string>
+    <string name="free_memory" msgid="4003936141603549746">"ਫ੍ਰੀ"</string>
+    <string name="memory_usage_apps" msgid="5650192998273294098">"ਐਪਸ ਵੱਲੋਂ ਵਰਤੀ ਗਈ ਮੈਮਰੀ"</string>
+    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ਐਪ ਵੱਲੋਂ ਪਿਛਲੇ <xliff:g id="DURATION_1">%2$s</xliff:g> ਵਿੱਚ ਵਰਤੀ ਗਈ ਮੈਮਰੀ</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ਐਪਸ ਵੱਲੋਂ ਪਿਛਲੇ <xliff:g id="DURATION_1">%2$s</xliff:g> ਵਿੱਚ ਵਰਤੀ ਗਈ ਮੈਮਰੀ</item>
+    </plurals>
+    <string name="running_frequency" msgid="6622624669948277693">"ਬਾਰੰਬਾਰਤਾ"</string>
+    <string name="memory_maximum_usage" msgid="6513785462055278341">"ਅਧਿਕਤਮ ਵਰਤੋਂ"</string>
+    <string name="no_data_usage" msgid="9131454024293628063">"ਕੋਈ ਡਾਟਾ ਨਹੀਂ ਵਰਤਿਆ"</string>
+    <string name="zen_access_warning_dialog_title" msgid="1198189958031157142">"ਕੀ <xliff:g id="APP">%1$s</xliff:g> ਨੂੰ ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ ਤੱਕ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਦੇਣੀ ਹੈ?"</string>
+    <string name="zen_access_warning_dialog_summary" msgid="4015885767653010873">"ਐਪ ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ ਨੂੰ ਚਾਲੂ/ਬੰਦ ਕਰਨ ਅਤੇ ਸੰਬੰਧਿਤ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਬਦਲਾਵ ਕਰਨ ਵਿੱਚ ਸਮਰੱਥ ਹੋਵੇਗਾ।"</string>
+    <string name="ignore_optimizations_on" msgid="6915689518016285116">"ਅਨੁਕੂਲਿਤ ਨਾ ਕਰੋ"</string>
+    <string name="ignore_optimizations_off" msgid="6153196256410296835">"ਅਨੁਕੂਲਿਤ ਕਰੋ"</string>
+    <string name="ignore_optimizations_on_desc" msgid="2321398930330555815">"ਤੁਹਾਡੀ ਬੈਟਰੀ ਨੂੰ ਹੋਰ ਵੀ ਛੇਤੀ ਖ਼ਤਮ ਕਰ ਸਕਦਾ ਹੈ।"</string>
+    <string name="ignore_optimizations_off_desc" msgid="5255731062045426544">"ਬਿਹਤਰ ਬੈਟਰੀ ਸਮਰੱਥਾ ਲਈ ਸਿਫ਼ਾਰਿਸ਼ ਕੀਤਾ"</string>
+    <string name="ignore_optimizations_title" msgid="2829637961185027768">"ਕੀ <xliff:g id="APP">%s</xliff:g> ਨੂੰ ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਦੀ ਉਪੇਖਿਆ ਕਰਨ ਦੀ ਆਗਿਆ ਦੇਣੀ ਹੈ?"</string>
+    <string name="app_list_preference_none" msgid="108006867520327904">"ਕੋਈ ਨਹੀਂ"</string>
+    <string name="work_profile_usage_access_warning" msgid="8870622842216566692">"ਇਸ ਐਪ ਲਈ ਵਰਤੋਂ ਪਹੁੰਚ ਨੂੰ ਬੰਦ ਕਰਨ ਨਾਲ ਇਹ ਤੁਹਾਡੀ ਕੰਮ ਪ੍ਰੋਫਾਈਲ ਵਿੱਚ ਐਪਸ ਲਈ ਡਾਟਾ ਵਰਤੋਂ ਟਰੈਕ ਕਰਦੇ ਹੋਏ ਤੁਹਾਡੇ ਪ੍ਰਬੰਧਕ ਨੂੰ ਨਹੀਂ ਰੋਕ ਸਕਦਾ।"</string>
+    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"<xliff:g id="COUNT_1">%2$d</xliff:g> ਵਿੱਚੋਂ <xliff:g id="COUNT_0">%1$d</xliff:g> ਅੱਖਰ ਵਰਤੇ ਗਏ"</string>
+    <string name="draw_overlay_title" msgid="4003905926278954971">"ਉਹ ਐਪਸ ਜੋ ਦੂਜੀਆਂ ਐਪਸ ਨੂੰ ਕਾਬੂ ਕਰ ਸਕਦੀਆਂ ਹਨ"</string>
+    <string name="draw_overlay" msgid="9078696044299199938">"ਹੋਰ ਐਪਸ ਤੇ ਡ੍ਰਾ ਕਰੋ"</string>
+    <string name="system_alert_window_settings" msgid="1757821151143694951">"ਹੋਰ ਐਪਸ ਤੇ ਡ੍ਰਾ ਕਰੋ"</string>
+    <string name="system_alert_window_apps_title" msgid="7005760279028569491">"ਐਪਸ"</string>
+    <string name="system_alert_window_access_title" msgid="8811695381437304132">"ਹੋਰ ਐਪਸ ਤੇ ਡ੍ਰਾ ਕਰੋ"</string>
+    <string name="permit_draw_overlay" msgid="6606018549732046201">"ਦੂਜੀਆਂ ਐਅਪਸ \'ਤੇ ਡ੍ਰਾ ਕਰਨ ਦੀ ਅਨੁਮਤੀ ਦਿਓ"</string>
+    <string name="app_overlay_permission_preference" msgid="8355410276571387439">"ਐਪ ਮੁੱਖ ਅਨੁਮਤੀ ਦੇ ਨੇੜੇ ਹੁੰਦੀ ਹੈ"</string>
+    <string name="allow_overlay_description" msgid="7895191337585827691">"ਇਹ ਅਨੁਮਤੀ ਤੁਹਾਡੇ ਦੁਆਰਾ ਉਪਯੋਗ ਕੀਤੀ ਜਾ ਰਹੀਆਂ ਦੂਜੀਆਂ ਐਪਸ ਦੇ ਸਿਖਰ \'ਤੇ ਐਪ ਨੂੰ ਦਿਖਾਉਣ ਦੀ ਅਨੁਮਤੀ ਦਿੰਦੀ ਹੈ ਅਤੇ ਦੂਜੀਆਂ ਐਪਸ ਵਿੱਚ ਇੰਟਰਫੇਸ ਦੇ ਤੁਹਾਡੇ ਉਪਯੋਗ ਵਿੱਚ ਦਖਲ ਦੇ ਸਕਦੀ ਹੈ, ਜਾਂ ਜੋ ਤੁਸੀਂ ਸੋਚਦੇ ਉਹ ਬਦਲੋ ਕਿ ਤੁਸੀਂ ਦੂਜੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੇਖ ਰਹੇ ਹੋ।"</string>
+    <string name="keywords_system_alert_window" msgid="8579673659566564926">"ਸਿਸਟਮ ਚਿਤਾਵਨੀ ਵਿੰਡੋ ਡਾਇਲੌਗ ਦੂਜੀਆਂ ਪ੍ਰਮੁੱਖ ਐਪਸ ਦੇ ਨੇੜੇ ਹੁੰਦਾ ਹੈ"</string>
+    <string name="overlay_settings" msgid="222062091489691363">"ਹੋਰ ਐਪਸ ਤੇ ਡ੍ਰਾ ਕਰੋ"</string>
+    <string name="system_alert_window_summary" msgid="4268867238063922290">"<xliff:g id="COUNT_1">%d</xliff:g> ਵਿੱਚੋਂ <xliff:g id="COUNT_0">%d</xliff:g> ਐਪਸ ਨੂੰ ਦੂਜੀਆਂ ਐਪਸ ਦੇ ਸਿਖਰ \'ਤੇ ਡ੍ਰਾਅਦੀ ਅਨੁਮਤੀ ਦਿੱਤੀ ਗਈ"</string>
+    <string name="filter_overlay_apps" msgid="6965969283342557573">"ਅਨੁਮਤੀ ਵਾਲੀਆਂ ਐਪਸ"</string>
+    <string name="system_alert_window_on" msgid="2939489395109048888">"ਹਾਂ"</string>
+    <string name="system_alert_window_off" msgid="6189115687233061992">"ਨਹੀਂ"</string>
+    <string name="write_settings" msgid="4797457275727195681">"ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰੋ"</string>
+    <string name="keywords_write_settings" msgid="6415597272561105138">"ਸੰਸ਼ੋਧਿਤ ਸਿਸਟਮ ਸੈਟਿੰਗਸ ਲਿਖੋ"</string>
+    <string name="write_settings_summary" msgid="4302268998611412696">"<xliff:g id="COUNT_1">%d</xliff:g> ਵਿੱਚੋਂ <xliff:g id="COUNT_0">%d</xliff:g> ਐਪ ਨੂੰ ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੱਤੀ"</string>
+    <string name="filter_write_settings_apps" msgid="2914615026197322551">"ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰ ਸਕਦਾ ਹੈ"</string>
+    <string name="write_settings_title" msgid="4232152481902542284">"ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰ ਸਕਦਾ ਹੈ"</string>
+    <string name="write_system_settings" msgid="3482913590601096763">"ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰੋ"</string>
+    <string name="write_settings_preference" msgid="3407383041273067448">"ਐਪ ਨੂੰ ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰਨ ਦੀ ਅਨੁਮਤੀ"</string>
+    <string name="permit_write_settings" msgid="6393779336656870080">"ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿਓ"</string>
+    <string name="write_settings_description" msgid="6868293938839954623">"ਇਹ ਅਨੁਮਤੀ ਇੱਕ ਐਪ ਨੂੰ ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੰਸ਼ੋਧਿਤ ਕਰਨ ਲਈ ਆਗਿਆ ਦਿੰਦੀ ਹੈ।"</string>
+    <string name="write_settings_on" msgid="8230580416068832239">"ਹਾਂ"</string>
+    <string name="write_settings_off" msgid="5156104383386336233">"ਨਹੀਂ"</string>
+    <string name="camera_gesture_title" msgid="1075838577642393011">"ਕੈਮਰੇ ਲਈ ਦੋ ਵਾਰ ਮੋੜੋ"</string>
+    <string name="camera_gesture_desc" msgid="1831390075255870960">"ਆਪਣੇ ਗੁੱਟ ਨੂੰ ਦੋ ਵਾਰ ਮੋੜਕੇ ਕੈਮਰਾ ਐਪ ਖੋਲ੍ਹੋ"</string>
+    <string name="camera_double_tap_power_gesture_title" msgid="1651873760405034645">"ਕੈਮਰੇ ਲਈ ਪਾਵਰ ਬਟਨ ਨੂੰ ਦੋ ਵਾਰੀ ਦਬਾਓ"</string>
+    <string name="camera_double_tap_power_gesture_desc" msgid="7355664631775680376">"ਆਪਣੀ ਸਕ੍ਰੀਨ ਨੂੰ ਅਨਲੌਕ ਕੀਤੇ ਬਗੈਰ ਤਤਕਾਲ ਕੈਮਰਾ ਖੋਲ੍ਹੋ"</string>
+  <string-array name="color_mode_names">
+    <item msgid="2425514299220523812">"ਚਮਕੀਲਾ (ਡਿਫੌਲਟ)"</item>
+    <item msgid="8446070607501413455">"ਕੁਦਰਤੀ"</item>
+    <item msgid="6553408765810699025">"ਸਟੈਂਡਰਡ"</item>
+  </string-array>
+  <string-array name="color_mode_descriptions">
+    <item msgid="4979629397075120893">"ਵਿਸਤ੍ਰਿਤ ਰੰਗ"</item>
+    <item msgid="8280754435979370728">"ਕੁਦਰਤੀ ਰੰਗ ਜਿਵੇਂ ਅੱਖ ਰਾਹੀਂ ਦੇਖੇ ਜਾਂਦੇ ਹਨ"</item>
+    <item msgid="5363960654009010371">"ਡਿਜੀਟਲ ਸਮੱਗਰੀ ਲਈ ਰੰਗ ਅਨੁਕੂਲ ਕੀਤੇ"</item>
+  </string-array>
+    <string name="picture_color_mode" msgid="4560755008730283695">"ਤਸਵੀਰ ਰੰਗ ਮੋਡ"</string>
+    <string name="picture_color_mode_desc" msgid="1141891467675548590">"sRGB ਵਰਤੋਂ ਕਰੋ"</string>
 </resources>

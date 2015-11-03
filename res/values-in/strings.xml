@@ -349,6 +349,7 @@
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> sidik jari didaftarkan</item>
       <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> sidik jari didaftarkan</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Penyiapan sidik jari"</string>
     <!-- no translation found for security_settings_fingerprint_enroll_onboard_message (451317492588352122) -->
     <skip />
@@ -369,16 +370,18 @@
     <string name="security_settings_fingerprint_enroll_repeat_message" msgid="8846866512704467036">"Letakkan jari yang sama pada sensor sidik jari dan angkat setelah Anda merasakan getaran."</string>
     <string name="security_settings_fingerprint_enroll_finish_title" msgid="4798692662828257300">"Sidik jari ditambahkan!"</string>
     <string name="security_settings_fingerprint_enroll_finish_message" msgid="835496875787664316">"Setiap kali melihat ikon ini, Anda dapat menggunakan sidik jari untuk identifikasi atau mengotorisasi pembelian."</string>
-    <!-- no translation found for security_settings_fingerprint_enroll_setup_screen_lock (8205113627804480642) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_done (4014607378328187567) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_title (4360990635212143565) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_message (5053971232594165142) -->
-    <skip />
-    <!-- no translation found for fingerprint_enroll_button_add (6317978977419045463) -->
-    <skip />
+    <string name="setup_fingerprint_enroll_finish_message" msgid="7234264291957984004">"Cukup sentuh sensor sidik jari untuk membangunkan dan membuka kunci perangkat."</string>
+    <string name="setup_fingerprint_enroll_finish_message_secondary" msgid="7280546429133276374">"Jika melihat ikon ini, Anda dapat menggunakan sidik jari."</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="6808422329107426923">"Lewati penyiapan sidik jari?"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="274849306857859783">"Anda telah memilih untuk menggunakan sidik jari sebagai satu cara untuk membuka kunci perangkat. Jika dilewati sekarang, Anda harus menyiapkannya nanti. Penyiapan hanya memerlukan waktu sekitar satu menit."</string>
+    <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="1195743489835505376">"Siapkan kunci layar"</string>
+    <string name="security_settings_fingerprint_enroll_done" msgid="4014607378328187567">"Selesai"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="1863561601428695160">"Ups, bukan itu sensornya"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="5053971232594165142">"Gunakan sensor sidik jari di perangkat."</string>
+    <string name="security_settings_fingerprint_enroll_error_dialog_title" msgid="3618021988442639280">"Pendaftaran tidak selesai"</string>
+    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message" msgid="2942551158278899627">"Batas waktu pendaftaran sidik jari tercapai. Coba lagi."</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"Pendaftaran sidik jari tidak berhasil. Coba lagi atau gunakan jari lain."</string>
+    <string name="fingerprint_enroll_button_add" msgid="6317978977419045463">"Tambahkan yang lain"</string>
     <string name="fingerprint_enroll_button_next" msgid="6247009337616342759">"Berikutnya"</string>
     <string name="crypt_keeper_settings_title" msgid="4219233835490520414">"Enkripsi"</string>
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"Enkripsi tablet"</string>
@@ -1188,6 +1191,7 @@
     <string name="about_settings_summary" msgid="3371517697156165959">"Lihat info legal, status, versi perangkat lunak"</string>
     <string name="legal_information" msgid="5769301644270604095">"Informasi hukum"</string>
     <string name="contributors_title" msgid="5917703088825286504">"Kontributor"</string>
+    <string name="manual" msgid="3025943393642974445">"Manual"</string>
     <string name="regulatory_information" msgid="5695464367088752150">"Informasi pengaturan"</string>
     <string name="copyright_title" msgid="865906688917260647">"Hak cipta"</string>
     <string name="license_title" msgid="1990487604356037871">"Lisensi"</string>
@@ -1195,6 +1199,8 @@
     <string name="webview_license_title" msgid="2813507464175738967">"Lisensi WebView Sistem"</string>
     <string name="wallpaper_attributions" msgid="3645880512943433928">"Wallpaper"</string>
     <string name="wallpaper_attributions_values" msgid="2996183537914690469">"Penyedia citra satelit:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+    <string name="settings_manual_activity_title" msgid="8133150693616006051">"Manual"</string>
+    <string name="settings_manual_activity_unavailable" msgid="4752403782883814898">"Ada masalah saat memuat manual."</string>
     <string name="settings_license_activity_title" msgid="7553683406244228650">"Lisensi sumber terbuka"</string>
     <string name="settings_license_activity_unavailable" msgid="4210539215951487627">"Ada masalah saat memuat lisensi."</string>
     <string name="settings_license_activity_loading" msgid="3337535809093591740">"Memuat…"</string>
@@ -2459,6 +2465,8 @@
     <string name="keywords_all_apps" msgid="5377153522551809915">"apl unduh aplikasi sistem"</string>
     <string name="keywords_app_permissions" msgid="8677901415217188314">"keamanan izin aplikasi"</string>
     <string name="keywords_default_apps" msgid="3581727483175522599">"aplikasi default"</string>
+    <string name="keywords_ignore_optimizations" msgid="946516741848647905">"abaikan pengoptimalan nonaktifkan aplikasi siaga"</string>
+    <string name="keywords_color_mode" msgid="4670570451841540200">"terang rgb srgb warna alami standar"</string>
     <string name="keywords_lockscreen" msgid="4806191868723291541">"geser pin pola sandi"</string>
     <string name="setup_wifi_nfc_tag" msgid="9028353016222911016">"Siapkan Tag NFC Wi-Fi"</string>
     <string name="write_tag" msgid="8571858602896222537">"Tulis"</string>
@@ -2714,12 +2722,128 @@
     <skip />
     <string name="default_app" msgid="6864503001385843060">"(Default)"</string>
     <string name="apps_storage" msgid="4353308027210435513">"Penyimpanan aplikasi"</string>
-    <!-- no translation found for usage_access (5479504953931038165) -->
-    <skip />
-    <!-- no translation found for permit_usage_access (4012876269445832300) -->
-    <skip />
-    <!-- no translation found for app_usage_preference (7065701732733134991) -->
-    <skip />
-    <!-- no translation found for usage_access_description (1470042370563522270) -->
-    <skip />
+    <string name="usage_access" msgid="5479504953931038165">"Akses penggunaan"</string>
+    <string name="permit_usage_access" msgid="4012876269445832300">"Izinkan akses penggunaan"</string>
+    <string name="app_usage_preference" msgid="7065701732733134991">"Preferensi penggunaan aplikasi"</string>
+    <string name="usage_access_description" msgid="1352111094596416795">"Akses penggunaan memungkinkan aplikasi melacak aplikasi lain mana saja yang Anda gunakan dan seberapa sering, serta operator, setelan bahasa, dan detail lainnya."</string>
+    <string name="memory_settings_title" msgid="7490541005204254222">"Memori"</string>
+    <string name="memory_details_title" msgid="8542565326053693320">"Detail memori"</string>
+    <string name="always_running" msgid="6042448320077429656">"Selalu dijalankan (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="sometimes_running" msgid="6611250683037700864">"Sesekali dijalankan (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="rarely_running" msgid="348413460168817458">"Jarang dijalankan (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="memory_max_use" msgid="6874803757715963097">"Maksimum"</string>
+    <string name="memory_avg_use" msgid="7382015389130622870">"Rata-rata"</string>
+    <string name="memory_max_desc" msgid="2861832149718335864">"Maksimum <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_avg_desc" msgid="1551240906596518412">"Rata-rata <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_use_running_format" msgid="4172488041800743760">"<xliff:g id="MEMORY">%1$s</xliff:g> / <xliff:g id="RUNNING">%2$s</xliff:g>"</string>
+    <string name="process_format" msgid="77905604092541454">"<xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="COUNT">%2$d</xliff:g>)"</string>
+    <string name="high_power_apps" msgid="3459065925679828230">"Pengoptimalan baterai"</string>
+    <string name="high_power_filter_on" msgid="3222265297576680099">"Tidak dioptimalkan"</string>
+    <string name="high_power_on" msgid="3382367497549906927">"Mengabaikan pengoptimalan baterai"</string>
+    <string name="high_power_off" msgid="3393904131961263278">"Mengoptimalkan penggunaan baterai"</string>
+    <string name="high_power_system" msgid="7362862974428225301">"Pengoptimalan baterai tidak tersedia"</string>
+    <string name="high_power_desc" msgid="6283926163708585760">"Jangan terapkan pengoptimalan baterai. Baterai akan lebih cepat habis."</string>
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikasi diizinkan untuk mengabaikan pengoptimalan baterai</item>
+      <item quantity="one">1 aplikasi diizinkan untuk mengabaikan pengoptimalan baterai</item>
+    </plurals>
+    <string name="high_power_prompt_title" msgid="4257734526819699048">"Abaikan pengoptimalan baterai?"</string>
+    <string name="high_power_prompt_body" msgid="4072587909486730876">"Izinkan aplikasi <xliff:g id="APP_NAME">%1$s</xliff:g> tetap terhubung di latar belakang? Mungkin menggunakan lebih banyak baterai."</string>
+    <string name="battery_summary" msgid="101415762036784289">"<xliff:g id="PERCENTAGE">%1$d</xliff:g>%% digunakan sejak isi daya penuh terakhir"</string>
+    <string name="no_battery_summary" msgid="3528036835462846814">"Tidak ada penggunaan baterai sejak isi daya penuh terakhir"</string>
+    <string name="app_notification_preferences" msgid="1599319335092722613">"Setelan aplikasi"</string>
+    <string name="system_ui_settings" msgid="579824306467081123">"Tampilkan Penyetel SystemUI"</string>
+    <string name="additional_permissions" msgid="6463784193877056080">"Izin tambahan"</string>
+    <string name="additional_permissions_more" msgid="3538612272673191451">"<xliff:g id="COUNT">%1$d</xliff:g> lainnya"</string>
+    <string name="usb_use_charging_only" msgid="167707234832117768">"Mengisi daya"</string>
+    <string name="usb_use_charging_only_desc" msgid="3066256793008540627">"Isi daya perangkat ini saja"</string>
+    <string name="usb_use_power_only" msgid="6304554004177083963">"Pasokan daya"</string>
+    <string name="usb_use_power_only_desc" msgid="708134382305728112">"Isi daya perangkat lain yang terhubung"</string>
+    <string name="usb_use_file_transfers" msgid="6978904665877785548">"Transfer file"</string>
+    <string name="usb_use_file_transfers_desc" msgid="1663579896876922124">"Transfer file ke Windows atau Mac (MTP)"</string>
+    <string name="usb_use_photo_transfers" msgid="8276445551694259039">"Transfer foto (PTP)"</string>
+    <string name="usb_use_photo_transfers_desc" msgid="2963034811151325996">"Transfer foto atau file jika MTP tidak didukung (PTP)"</string>
+    <string name="usb_use_MIDI" msgid="5116404702692483166">"MIDI"</string>
+    <string name="usb_use_MIDI_desc" msgid="6895383550910152384">"Gunakan perangkat untuk masukan MIDI"</string>
+    <string name="usb_use" msgid="3372728031108932425">"Gunakan USB untuk"</string>
+    <string name="inactive_apps_title" msgid="1317817863508274533">"Aplikasi yang tidak aktif"</string>
+    <string name="inactive_app_inactive_summary" msgid="6768756967594202411">"Tidak aktif. Sentuh untuk mengalihkan."</string>
+    <string name="inactive_app_active_summary" msgid="4512911571954375968">"Aktif. Sentuh untuk mengalihkan."</string>
+    <string name="assist_access_context_title" msgid="2269032346698890257">"Gunakan teks dari layar"</string>
+    <string name="assist_access_context_summary" msgid="1991421283142279560">"Izinkan aplikasi bantuan mengakses konten layar sebagai teks"</string>
+    <string name="assist_access_screenshot_title" msgid="4034721336291215819">"Gunakan tangkapan layar"</string>
+    <string name="assist_access_screenshot_summary" msgid="6761636689013259901">"Izinkan aplikasi bantuan mengakses gambar layar"</string>
+    <string name="assist_footer" msgid="1982791172085896864">"Aplikasi bantuan dapat membantu Anda berdasarkan informasi dari layar yang sedang Anda lihat. Beberapa aplikasi mendukung peluncur dan layanan masukan suara untuk memberikan bantuan terintegrasi."</string>
+    <string name="average_memory_use" msgid="829566450150198512">"Rata-rata penggunaan memori"</string>
+    <string name="maximum_memory_use" msgid="7493720799710132496">"Penggunaan memori maksimum"</string>
+    <string name="memory_usage" msgid="1781358557214390033">"Penggunaan memori"</string>
+    <string name="app_list_memory_use" msgid="6987417883876419338">"Penggunaan aplikasi"</string>
+    <string name="memory_details" msgid="5943436005716991782">"Detail"</string>
+    <string name="memory_use_summary" msgid="5608257211903075754">"<xliff:g id="SIZE">%1$s</xliff:g> rata-rata memori yang digunakan dalam 3 jam terakhir"</string>
+    <string name="no_memory_use_summary" msgid="2016900536806235588">"Tidak ada memori yang digunakan dalam 3 jam terakhir"</string>
+    <string name="sort_avg_use" msgid="3998036180505143129">"Urutkan menurut rata-rata penggunaan"</string>
+    <string name="sort_max_use" msgid="4629247978290075124">"Urutkan menurut penggunaan maksimum"</string>
+    <string name="memory_performance" msgid="5661005192284103281">"Kinerja"</string>
+    <string name="total_memory" msgid="2017287600738630165">"Total memori"</string>
+    <string name="average_used" msgid="5338339266517245782">"Rata-rata digunakan (%)"</string>
+    <string name="free_memory" msgid="4003936141603549746">"Kosong"</string>
+    <string name="memory_usage_apps" msgid="5650192998273294098">"Memori yang digunakan oleh aplikasi"</string>
+    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikasi menggunakan memori dalam <xliff:g id="DURATION_1">%2$s</xliff:g> terakhir</item>
+      <item quantity="one">1 aplikasi menggunakan memori dalam <xliff:g id="DURATION_0">%2$s</xliff:g> terakhir</item>
+    </plurals>
+    <string name="running_frequency" msgid="6622624669948277693">"Frekuensi"</string>
+    <string name="memory_maximum_usage" msgid="6513785462055278341">"Penggunaan maksimum"</string>
+    <string name="no_data_usage" msgid="9131454024293628063">"Tidak ada data yang digunakan"</string>
+    <string name="zen_access_warning_dialog_title" msgid="1198189958031157142">"Izinkan akses ke status Jangan Ganggu untuk <xliff:g id="APP">%1$s</xliff:g>?"</string>
+    <string name="zen_access_warning_dialog_summary" msgid="4015885767653010873">"Aplikasi dapat mengaktifkan/menonaktifkan status Jangan Ganggu dan mengubah setelan terkait."</string>
+    <string name="ignore_optimizations_on" msgid="6915689518016285116">"Jangan optimalkan"</string>
+    <string name="ignore_optimizations_off" msgid="6153196256410296835">"Optimalkan"</string>
+    <string name="ignore_optimizations_on_desc" msgid="2321398930330555815">"Dapat menghabiskan baterai lebih cepat"</string>
+    <string name="ignore_optimizations_off_desc" msgid="5255731062045426544">"Disarankan agar baterai lebih tahan lama"</string>
+    <string name="ignore_optimizations_title" msgid="2829637961185027768">"Izinkan <xliff:g id="APP">%s</xliff:g> untuk mengabaikan pengoptimalan baterai?"</string>
+    <string name="app_list_preference_none" msgid="108006867520327904">"Tidak ada"</string>
+    <string name="work_profile_usage_access_warning" msgid="8870622842216566692">"Menonaktifkan akses penggunaan aplikasi ini tidak akan mencegah administrator untuk melacak penggunaan data aplikasi di profil kerja Anda."</string>
+    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"<xliff:g id="COUNT_0">%1$d</xliff:g> dari <xliff:g id="COUNT_1">%2$d</xliff:g> karakter digunakan"</string>
+    <string name="draw_overlay_title" msgid="4003905926278954971">"Aplikasi yang dapat menarik di atas aplikasi lain"</string>
+    <string name="draw_overlay" msgid="9078696044299199938">"Tarik di atas aplikasi lain"</string>
+    <string name="system_alert_window_settings" msgid="1757821151143694951">"Tarik di atas aplikasi lain"</string>
+    <string name="system_alert_window_apps_title" msgid="7005760279028569491">"Aplikasi"</string>
+    <string name="system_alert_window_access_title" msgid="8811695381437304132">"Tarik di atas aplikasi lain"</string>
+    <string name="permit_draw_overlay" msgid="6606018549732046201">"Izinkan menarik di atas aplikasi lain"</string>
+    <string name="app_overlay_permission_preference" msgid="8355410276571387439">"Izin menarik aplikasi di atas"</string>
+    <string name="allow_overlay_description" msgid="7895191337585827691">"Izin ini memungkinkan aplikasi ditampilkan di atas aplikasi lain yang sedang digunakan dan dapat mengganggu penggunaan antarmuka di aplikasi lain, atau mengubah tampilan yang Anda lihat di aplikasi lain."</string>
+    <string name="keywords_system_alert_window" msgid="8579673659566564926">"dialog jendela lansiran sistem tarik di atas aplikasi lain"</string>
+    <string name="overlay_settings" msgid="222062091489691363">"Tarik di atas aplikasi lain"</string>
+    <string name="system_alert_window_summary" msgid="4268867238063922290">"<xliff:g id="COUNT_0">%d</xliff:g> dari <xliff:g id="COUNT_1">%d</xliff:g> aplikasi diizinkan untuk menarik di atas aplikasi lain"</string>
+    <string name="filter_overlay_apps" msgid="6965969283342557573">"Aplikasi yang memiliki izin"</string>
+    <string name="system_alert_window_on" msgid="2939489395109048888">"Ya"</string>
+    <string name="system_alert_window_off" msgid="6189115687233061992">"Tidak"</string>
+    <string name="write_settings" msgid="4797457275727195681">"Ubah setelan sistem"</string>
+    <string name="keywords_write_settings" msgid="6415597272561105138">"tulis ubah setelan sistem"</string>
+    <string name="write_settings_summary" msgid="4302268998611412696">"<xliff:g id="COUNT_0">%d</xliff:g> dari <xliff:g id="COUNT_1">%d</xliff:g> aplikasi diizinkan untuk mengubah setelan sistem"</string>
+    <string name="filter_write_settings_apps" msgid="2914615026197322551">"Dapat mengubah setelan sistem"</string>
+    <string name="write_settings_title" msgid="4232152481902542284">"Dapat mengubah setelan sistem"</string>
+    <string name="write_system_settings" msgid="3482913590601096763">"Ubah setelan sistem"</string>
+    <string name="write_settings_preference" msgid="3407383041273067448">"Izin mengubah setelan sistem aplikasi"</string>
+    <string name="permit_write_settings" msgid="6393779336656870080">"Izinkan mengubah setelan sistem"</string>
+    <string name="write_settings_description" msgid="6868293938839954623">"Izin ini memungkinkan aplikasi mengubah setelan sistem."</string>
+    <string name="write_settings_on" msgid="8230580416068832239">"Ya"</string>
+    <string name="write_settings_off" msgid="5156104383386336233">"Tidak"</string>
+    <string name="camera_gesture_title" msgid="1075838577642393011">"Putar dua kali untuk kamera"</string>
+    <string name="camera_gesture_desc" msgid="1831390075255870960">"Membuka aplikasi kamera dengan memutar pergelangan tangan dua kali"</string>
+    <string name="camera_double_tap_power_gesture_title" msgid="1651873760405034645">"Tekan tombol daya dua kali untuk kamera"</string>
+    <string name="camera_double_tap_power_gesture_desc" msgid="7355664631775680376">"Buka kamera dengan cepat tanpa membuka kunci layar"</string>
+  <string-array name="color_mode_names">
+    <item msgid="2425514299220523812">"Terang (default)"</item>
+    <item msgid="8446070607501413455">"Alami"</item>
+    <item msgid="6553408765810699025">"Standar"</item>
+  </string-array>
+  <string-array name="color_mode_descriptions">
+    <item msgid="4979629397075120893">"Warna yang disempurnakan"</item>
+    <item msgid="8280754435979370728">"Warna-warni alami seperti yang dilihat oleh mata"</item>
+    <item msgid="5363960654009010371">"Warna yang dioptimalkan untuk konten digital"</item>
+  </string-array>
+    <string name="picture_color_mode" msgid="4560755008730283695">"Mode warna gambar"</string>
+    <string name="picture_color_mode_desc" msgid="1141891467675548590">"Gunakan sRGB"</string>
 </resources>

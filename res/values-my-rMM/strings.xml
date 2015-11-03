@@ -349,6 +349,7 @@
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> လက်ဗွေရာများ စာရင်းသွင်းပြီး</item>
       <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> လက်ဗွေ စာရင်းသွင်းပြီး</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"လက်ဗွေရာကို တပ်ဆင်ရန်"</string>
     <!-- no translation found for security_settings_fingerprint_enroll_onboard_message (451317492588352122) -->
     <skip />
@@ -369,16 +370,18 @@
     <string name="security_settings_fingerprint_enroll_repeat_message" msgid="8846866512704467036">"တူညီသည့် လက်ချောင်းကို လက်ဗွေဖတ်ကိရိယာပေါ်တွင် ထားပြီး တုန်ခါမှုကိုခံစားရသည်နှင့် လွတ်လိုက်ပါ။"</string>
     <string name="security_settings_fingerprint_enroll_finish_title" msgid="4798692662828257300">"လက်ဗွေရာကို ထည့်ပြီးပါပြီ!"</string>
     <string name="security_settings_fingerprint_enroll_finish_message" msgid="835496875787664316">"ဤကိုယ်စားပြုရုပ်ပုံကို သင်တွေ့တိုင်း၊  သက်သေခံခြင်းအတွက်သို့မဟုတ် ဝယ်ယူခြင်းကို ခွင့်ပြုရန်အတွက် သင့်လက်ဗွေရာကို အသုံးပြုနိုင်ပါသည်။"</string>
-    <!-- no translation found for security_settings_fingerprint_enroll_setup_screen_lock (8205113627804480642) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_done (4014607378328187567) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_title (4360990635212143565) -->
-    <skip />
-    <!-- no translation found for security_settings_fingerprint_enroll_touch_dialog_message (5053971232594165142) -->
-    <skip />
-    <!-- no translation found for fingerprint_enroll_button_add (6317978977419045463) -->
-    <skip />
+    <string name="setup_fingerprint_enroll_finish_message" msgid="7234264291957984004">"သင်၏ ကိရိယာကို နှိုးပေးရန် နှင့် သော့ဖွင့်ရန် လက်ဗွေ အာရုံခံ ကိရိယာကို ထိလိုက်ရုံပါပဲ။"</string>
+    <string name="setup_fingerprint_enroll_finish_message_secondary" msgid="7280546429133276374">"သင်သည် ဤအိုင်ကွန်ကို မြင်သောလျှင်၊ သင်သည် သင်၏ လက်ဗွေကို သုံးနိုင်သည်။"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="6808422329107426923">"လက်ဗွေရာ သတ်မှတ်မှုကို ကျော်မလား"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="274849306857859783">"သင့်လက်ဗွေဖြင့် သင့်ဖုန်းကို သော့ဖွင့်ရန် နည်းလမ်းတစ်ခုအဖြစ် ရွေးချယ်ခဲ့သည်။ အကယ်၍ယခုကျော်သွားလျှင်၊ ၎င်းကိုနောက်နှောင်တွင် သတ်မှတ်ရပါလိမ့်မည်။ သတ်မှတ်ခြင်းသည် မိနစ်အနည်းငယ်သာ ကြာပါသည်။"</string>
+    <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="1195743489835505376">"ဖုန်းဖန်သားပြင် သော့စနစ် သတ်မှတ်ပါ"</string>
+    <string name="security_settings_fingerprint_enroll_done" msgid="4014607378328187567">"ပြီးပါပြီ"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="1863561601428695160">"အိုး။ ဒါ အာရုံခံကိရိယာမဟုတ်ဘူး"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="5053971232594165142">"သင့်ရဲ့ စက်ကိရိယာပေါ်တွင် လက်ဗွေအာရုံခံစက်ကိုအသုံးပြုပါ။"</string>
+    <string name="security_settings_fingerprint_enroll_error_dialog_title" msgid="3618021988442639280">"စာရင်းသွင်းမှု မပြီးစီးခဲ့ပါ"</string>
+    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message" msgid="2942551158278899627">"လက်ဗွေ ပေးသွင်းမှု ကန့်သတ်ချိန် ကုန်သွားပြီ။ ထပ်စမ်းကြည့်ပါ။"</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"လက်ဗွေ ပေးသွင်းမှု အလုပ်မဖြစ်ခဲ့ပါ။ အခြား လက်ချောင်းကို သုံးရန် ထပ်စမ်းကြည်ပါ။"</string>
+    <string name="fingerprint_enroll_button_add" msgid="6317978977419045463">"အခြား ကြော်ငြာ"</string>
     <string name="fingerprint_enroll_button_next" msgid="6247009337616342759">"နောက်တစ်ခု"</string>
     <string name="crypt_keeper_settings_title" msgid="4219233835490520414">"လျှို့ဝှက်အသွင်ပြောင်းခြင်း"</string>
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"တက်ပလက်ကိုလျှို့ဝှက်အသွင်ပြောင်းရန်"</string>
@@ -1189,6 +1192,7 @@
     <string name="about_settings_summary" msgid="3371517697156165959">"ဥပဒေဆိုင်ရာအချက်အလက်၊ အခြေအနေ၊ ဆော့ဝဲလ်ဗားရှင်းအား ကြည့်ရှုရန်"</string>
     <string name="legal_information" msgid="5769301644270604095">"ဥပဒေဆိုင်ရာအချက်အလက်များ"</string>
     <string name="contributors_title" msgid="5917703088825286504">"ထောက်ပံ့သူများ"</string>
+    <string name="manual" msgid="3025943393642974445">"ကိုယ်တိုင်ထည့်သွင်းခြင်း"</string>
     <string name="regulatory_information" msgid="5695464367088752150">"စံစည်းမျဉ်း လိုက်နာမှု"</string>
     <string name="copyright_title" msgid="865906688917260647">"မူပိုင်ခွင့်"</string>
     <string name="license_title" msgid="1990487604356037871">"လိုင်စင်"</string>
@@ -1196,6 +1200,8 @@
     <string name="webview_license_title" msgid="2813507464175738967">"စနစ် WebView လိုင်စင်"</string>
     <string name="wallpaper_attributions" msgid="3645880512943433928">"နောက်ခံပုံများ"</string>
     <string name="wallpaper_attributions_values" msgid="2996183537914690469">"ဂြိုဟ်တုပုံ ပေးပို့သူများ-\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+    <string name="settings_manual_activity_title" msgid="8133150693616006051">"ကိုယ်တိုင်ထည့်သွင်းခြင်း"</string>
+    <string name="settings_manual_activity_unavailable" msgid="4752403782883814898">"လမ်းညွှန်ကို ဖတ်တင်ရန် ပြသနာရှိနေပါသည်"</string>
     <string name="settings_license_activity_title" msgid="7553683406244228650">"အိုးပင်းဆော့လိုင်စင်များအားဖွင့်ရန်"</string>
     <string name="settings_license_activity_unavailable" msgid="4210539215951487627">"လိုင်စင်များကို ဖတ်တင်ရန် ပြသနာရှိနေပါသည်"</string>
     <string name="settings_license_activity_loading" msgid="3337535809093591740">"ဖွင့်နေစဉ်"</string>
@@ -2460,6 +2466,8 @@
     <string name="keywords_all_apps" msgid="5377153522551809915">"app များ ဒေါင်းလုပ်ရယူသော အပ္ပလီကေးရှင်းစနစ်"</string>
     <string name="keywords_app_permissions" msgid="8677901415217188314">"အပ်ဖ်များ ခွင့်ပြုချက်လုံခြုံရေး"</string>
     <string name="keywords_default_apps" msgid="3581727483175522599">"apps များ ပုံမှန်"</string>
+    <string name="keywords_ignore_optimizations" msgid="946516741848647905">"Doze app အရံသင့်ထားခြင်းအား လျစ်လျူရှုရန်"</string>
+    <string name="keywords_color_mode" msgid="4670570451841540200">"တက်ကြွသည့် rgb srgb အရောင်စံသဘာဝ"</string>
     <string name="keywords_lockscreen" msgid="4806191868723291541">"စကားဝှက် ပုံစံ ပင်ကို ရွှေ့ရန်"</string>
     <string name="setup_wifi_nfc_tag" msgid="9028353016222911016">"ကြိုးမဲ့ NFC တဲဂ်ကို စဖွင့်သတ်မှတ်ရန်"</string>
     <string name="write_tag" msgid="8571858602896222537">"ရေးရန်"</string>
@@ -2715,12 +2723,128 @@
     <skip />
     <string name="default_app" msgid="6864503001385843060">"(မူသေ)"</string>
     <string name="apps_storage" msgid="4353308027210435513">"App များ သိုလှောင်မှု"</string>
-    <!-- no translation found for usage_access (5479504953931038165) -->
-    <skip />
-    <!-- no translation found for permit_usage_access (4012876269445832300) -->
-    <skip />
-    <!-- no translation found for app_usage_preference (7065701732733134991) -->
-    <skip />
-    <!-- no translation found for usage_access_description (1470042370563522270) -->
-    <skip />
+    <string name="usage_access" msgid="5479504953931038165">"သုံးစွဲမှုကို ရယူသုံးနိုင်"</string>
+    <string name="permit_usage_access" msgid="4012876269445832300">"ဝင်ရောက်သုံးစွဲမှုအား ခွင့့်ပြုရန်"</string>
+    <string name="app_usage_preference" msgid="7065701732733134991">"App သုံးစွဲမှု ရွေးချယ်စရာများ"</string>
+    <string name="usage_access_description" msgid="1352111094596416795">"သင့်ဖုန်း၏ ဝန်ဆောင်မှုဌာန၊ ဘာသာစကား ဆက်တင်နှင့် အခြားအသေးစိတ်များအပါအဝင်၊ သင် အကြိမ်မည်မျှသုံးစွဲသည်နှင့် သင်သုံးစွဲနေသော အခြား app များအား ခြေရာခံရန် app တစ်ခုအား ဝင်ရောက်သုံးစွဲမှုမှ ခွင့်ပြုသည်။"</string>
+    <string name="memory_settings_title" msgid="7490541005204254222">"မှတ်ဉာဏ်"</string>
+    <string name="memory_details_title" msgid="8542565326053693320">"မယ်မိုရီ အသေးစိတ်များ"</string>
+    <string name="always_running" msgid="6042448320077429656">"အမြဲတမ်း ဖွင့်ထား၏ (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="sometimes_running" msgid="6611250683037700864">"တခါတရံ ဖွင့်ထားသော (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="rarely_running" msgid="348413460168817458">"မဖွင့်သလောက် ဖြစ်သော (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="memory_max_use" msgid="6874803757715963097">"အကောင်းဆုံး"</string>
+    <string name="memory_avg_use" msgid="7382015389130622870">"ပျမ်းမျှ"</string>
+    <string name="memory_max_desc" msgid="2861832149718335864">"အများဆုံး <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_avg_desc" msgid="1551240906596518412">"ပျမ်းမျှ <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_use_running_format" msgid="4172488041800743760">"<xliff:g id="MEMORY">%1$s</xliff:g> / <xliff:g id="RUNNING">%2$s</xliff:g>"</string>
+    <string name="process_format" msgid="77905604092541454">"<xliff:g id="APP_NAME">%1$s</xliff:g> ( <xliff:g id="COUNT">%2$d</xliff:g> )"</string>
+    <string name="high_power_apps" msgid="3459065925679828230">"ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင်မှု"</string>
+    <string name="high_power_filter_on" msgid="3222265297576680099">"သင့်မြတ်အောင် မလုပ်ရသေး"</string>
+    <string name="high_power_on" msgid="3382367497549906927">"ဘက်ထရီ အသုံးပြုမှု သင့်မြတ်အောင် လုပ်ကိုင်မှုကို လျစ်လျူရှုနေ"</string>
+    <string name="high_power_off" msgid="3393904131961263278">"ဘက်ထရီ အသုံးပြုမှု သင့်မြတ်အောင် လုပ်နေ"</string>
+    <string name="high_power_system" msgid="7362862974428225301">"ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင် မရ"</string>
+    <string name="high_power_desc" msgid="6283926163708585760">"ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင်ရေးကို မလျှောက်ပါနှင့်။ ဘက်ထရီ အားကို ပိုလျင်မြန်စွာ ကုန်သွားစေနိုင်သည်။"</string>
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> အက်ပ်အား ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင်မှုကို လျစ်လျူရှုခွင့် ပြုထား</item>
+      <item quantity="one"> 1 အက်ပ်အား ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင်မှုကို လျစ်လျူရှုခွင့် ပြုထား</item>
+    </plurals>
+    <string name="high_power_prompt_title" msgid="4257734526819699048">"ဘက်ထရီကို ဆီလျော်အောင် လုပ်မှုများကို  လျစ်လျူရှုရမလား?"</string>
+    <string name="high_power_prompt_body" msgid="4072587909486730876">"app <xliff:g id="APP_NAME">%1$s</xliff:g>ကို နောက်ခံမှာ ချိတ်ဆက်လျက် ရှိနေခွင့် ပြုမလား? အဲဒါက ဘက်ထရီ ပိုစားနိုင်တယ်။"</string>
+    <string name="battery_summary" msgid="101415762036784289">"နောက်ဆုံးအကြိမ် အားအပြည့်သွင်းပြီးသည်မှ <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% သုံးပြီး၏"</string>
+    <string name="no_battery_summary" msgid="3528036835462846814">"နောက်ဆုံးအကြိမ် အားအပြည့်သွင်းပြီးသည့်နောက် ဘက္ထရီမသုံးပါ"</string>
+    <string name="app_notification_preferences" msgid="1599319335092722613">"App ဆက်တင်များ"</string>
+    <string name="system_ui_settings" msgid="579824306467081123">"SystemUI Tuner ပြရန်"</string>
+    <string name="additional_permissions" msgid="6463784193877056080">"ထပ်တိုး ခွင့်ပြုချက်များ"</string>
+    <string name="additional_permissions_more" msgid="3538612272673191451">"နောက်ထပ် <xliff:g id="COUNT">%1$d</xliff:g>"</string>
+    <string name="usb_use_charging_only" msgid="167707234832117768">"အားသွင်းနေ"</string>
+    <string name="usb_use_charging_only_desc" msgid="3066256793008540627">"ဒီဖုန်းကို အားသွင်းရုံပါ"</string>
+    <string name="usb_use_power_only" msgid="6304554004177083963">"ပါဝါ ဆက်သွယ်မှု"</string>
+    <string name="usb_use_power_only_desc" msgid="708134382305728112">"ချိတ်ဆက်ထားသည့် အခြား device ကို အားသွင်းရန်"</string>
+    <string name="usb_use_file_transfers" msgid="6978904665877785548">"ဖိုင် လွှဲပြောင်းမှုများ"</string>
+    <string name="usb_use_file_transfers_desc" msgid="1663579896876922124">"ဖိုင်များကို Windows သို့မဟုတ် Mac (MTP) ထံ လွှဲပြောင်းရန်"</string>
+    <string name="usb_use_photo_transfers" msgid="8276445551694259039">"ဓာတ်ပုံ လွှဲပြောင်းမှု (PTP)"</string>
+    <string name="usb_use_photo_transfers_desc" msgid="2963034811151325996">"MTP ကို မပံ့ပိုးလျှင် (PTP) ဓာတ်ပုံများ သို့မဟုတ် ဖိုင်များကို လွှဲပြောင်းရန်"</string>
+    <string name="usb_use_MIDI" msgid="5116404702692483166">"MIDI"</string>
+    <string name="usb_use_MIDI_desc" msgid="6895383550910152384">"MIDI ထည့်သွင်းမှု အတွက် ကိရိယာကို သုံးရန်"</string>
+    <string name="usb_use" msgid="3372728031108932425">"USB သုံးပါ"</string>
+    <string name="inactive_apps_title" msgid="1317817863508274533">"အလုပ်မလုပ်သော app များ"</string>
+    <string name="inactive_app_inactive_summary" msgid="6768756967594202411">"အလုပ်မလုပ်ပါ။ ခလုတ်ကို ထိပါ။"</string>
+    <string name="inactive_app_active_summary" msgid="4512911571954375968">"အလုပ်လုပ်နေ၏။ ခလုတ်ကို ထိပါ။"</string>
+    <string name="assist_access_context_title" msgid="2269032346698890257">"မျက်နှာပြင်မှ စာသားကိုသုံးမည်"</string>
+    <string name="assist_access_context_summary" msgid="1991421283142279560">"မျက်နှာပြင်အကြောင်းအရာများကို စာသားအဖြစ်အသုံးပြုရန် အကူအညီအပ်ဖ်ကို ခွင်ပြုမည်"</string>
+    <string name="assist_access_screenshot_title" msgid="4034721336291215819">"မျက်နှာပြင်ပုံဖမ်းချက် အသုံးပြုမည်"</string>
+    <string name="assist_access_screenshot_summary" msgid="6761636689013259901">"မျက်နှာပြင်၏ ပုံကိုအသုံးပြုရန် အကူအညီအပ်ဖ်ကို ခွင့်ပြုမည်"</string>
+    <string name="assist_footer" msgid="1982791172085896864">"သင်ကြည့်နေသည့် မျက်နှာပြင်မှသတင်းအချက်အလက်ကို အခြေခံ၍ အကူအညီအပ်ဖ်သည် သင့်ကိုကူညီနိုင်ပါသည်။ အထေက်အပံ့ဖြစ်စေသည့် ကူညီမှုကိုသင့်အားပေးစွမ်းနိုင်ရန် အချို့အပ်ဖ်များသည် အဖွင့်ကိရိယာနှင့် အသံထည့်သွင်းခြင်းနှစ်ခုလုံးကို ထောက်ပံ့ပါသည်။"</string>
+    <string name="average_memory_use" msgid="829566450150198512">"ပျမ်းမျှ မှတ်ဉာဏ် သုံးစွဲမှု"</string>
+    <string name="maximum_memory_use" msgid="7493720799710132496">"မှတ်ဉာဏ် အများဆုံး အသုံးပြုမှု"</string>
+    <string name="memory_usage" msgid="1781358557214390033">"မှတ်ဉာဏ် သုံးစွဲမှု"</string>
+    <string name="app_list_memory_use" msgid="6987417883876419338">"App သုံးစွဲမှု"</string>
+    <string name="memory_details" msgid="5943436005716991782">"အသေးစိတ်"</string>
+    <string name="memory_use_summary" msgid="5608257211903075754">"<xliff:g id="SIZE">%1$s</xliff:g> လွန်ခဲ့သော ၃ နာရီအတွင်း သုံးသည့် ပျမ်းမျှ မှတ်ဉာဏ်"</string>
+    <string name="no_memory_use_summary" msgid="2016900536806235588">"လွန်ခဲ့သော ၃ နာရီအတွင်း မှတ်ဉာဏ်သုံးစွဲမှုမရှိပါ"</string>
+    <string name="sort_avg_use" msgid="3998036180505143129">"ပျှမ်းမျှသုံးစွဲမှုအရ စီရန်"</string>
+    <string name="sort_max_use" msgid="4629247978290075124">"အများဆုံးသုံးစွဲမှုအရ စီရန်"</string>
+    <string name="memory_performance" msgid="5661005192284103281">"ဖျော်ဖြေတင်ဆက်မှု"</string>
+    <string name="total_memory" msgid="2017287600738630165">"စုစုပေါင်း မှတ်ဉာဏ်"</string>
+    <string name="average_used" msgid="5338339266517245782">"ပျမ်းမျှ အသုံးပြုမှု (%)"</string>
+    <string name="free_memory" msgid="4003936141603549746">"အလွတ်"</string>
+    <string name="memory_usage_apps" msgid="5650192998273294098">"App များမှ အသုံးပြုသော မှတ်ဉာဏ်"</string>
+    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
+      <item quantity="other"> App <xliff:g id="COUNT">%1$d</xliff:g> သည် မှတ်ဉာဏ်အား လွန်ခဲ့သော <xliff:g id="DURATION_1">%2$s</xliff:g> က သုံးခဲ့၏</item>
+      <item quantity="one">လွန်ခဲ့သော <xliff:g id="DURATION_0">%2$s</xliff:g> က မှတ်ဉာဏ်အား app ၁ ခု မှ သုံးခဲ့၏</item>
+    </plurals>
+    <string name="running_frequency" msgid="6622624669948277693">"လှိုင်းနှုန်း"</string>
+    <string name="memory_maximum_usage" msgid="6513785462055278341">"အများဆုံး အသုံးပြုမှု"</string>
+    <string name="no_data_usage" msgid="9131454024293628063">"မည်သည့်ဒေတာမျှ အသုံးမပြုပါ"</string>
+    <string name="zen_access_warning_dialog_title" msgid="1198189958031157142">"<xliff:g id="APP">%1$s</xliff:g>အတွက် မနှောင့်ယှက်ရန်ကို အသုံးပြုခွင့်ပေးမလား?"</string>
+    <string name="zen_access_warning_dialog_summary" msgid="4015885767653010873">"အပ်ဖ်သည် မနှောင့်ယှက်ရန်ကို အဖွင့်/အပိတ်ပြုလုပ်နိုင်ကာ သက်ဆိုင်ရာ ချိန်ညှိချက်များကို ပြောင်းလဲနိုင်ပါသည်။"</string>
+    <string name="ignore_optimizations_on" msgid="6915689518016285116">"သင့်မြတ်အောင် မလုပ်ပါနှင့်"</string>
+    <string name="ignore_optimizations_off" msgid="6153196256410296835">"သင့်မြတ်အောင် လုပ်ကိုင်ရန်"</string>
+    <string name="ignore_optimizations_on_desc" msgid="2321398930330555815">"သင့်ဘတ်ထရီအား ပိုမိုလျှင်မြန်စွာ ကုန်စေပါသည်။"</string>
+    <string name="ignore_optimizations_off_desc" msgid="5255731062045426544">"ပိုမိုကောင်းမွန်သည့် ဘတ်ထရီသက်တမ်းအတွက် အကြံပြုထား၏။"</string>
+    <string name="ignore_optimizations_title" msgid="2829637961185027768">"ဘတ်ထရီ ပိုမိုကောင်းမွန်ရေးကို လျစ်လျူရှုရန် <xliff:g id="APP">%s</xliff:g>ကိုခွင့်ပြုမလား?"</string>
+    <string name="app_list_preference_none" msgid="108006867520327904">"မရှိ"</string>
+    <string name="work_profile_usage_access_warning" msgid="8870622842216566692">"ဤ app အတွက် ဝင်ရောက်သုံးစွဲမှုအား ပိတ်ထားသော်လည်း သင့်အလုပ်ပရိုဖိုင်းရှိ app များ၏ ဒေတာအသုံးပြုမှုအား သင့်အက်ဒမင်မှ လိုက်ကြည့်နေခြင်းအား မတားဆီးနိုင်ပါ။"</string>
+    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"<xliff:g id="COUNT_1">%2$d</xliff:g> ၏<xliff:g id="COUNT_0">%1$d</xliff:g> စကားလုံးအသုံးပြုခဲ့သည်"</string>
+    <string name="draw_overlay_title" msgid="4003905926278954971">"အခြားအပ်ဖ်များပေါ်သို့ ဆွဲတင်နိုင်သည့် အပ်ဖ်များ"</string>
+    <string name="draw_overlay" msgid="9078696044299199938">"တခြား အပ်ဖ်များပေါ်တွင် ထပ်ဆွဲရန်"</string>
+    <string name="system_alert_window_settings" msgid="1757821151143694951">"တခြား အပလီကေးရှင်းပေါ်တွင် ထပ်ဆွဲရန်"</string>
+    <string name="system_alert_window_apps_title" msgid="7005760279028569491">"Appများ"</string>
+    <string name="system_alert_window_access_title" msgid="8811695381437304132">"တခြား အပလီကေးရှင်းပေါ်တွင် ထပ်ဆွဲရန်"</string>
+    <string name="permit_draw_overlay" msgid="6606018549732046201">"အခြားအပ်ဖ်များအပေါ်သို့ ဆွဲတင်ရန် ခွင့်ပြုမည်"</string>
+    <string name="app_overlay_permission_preference" msgid="8355410276571387439">"ခွင့်ပြုချက်ပေါ်တွင် အပ်ဖ်ဆွဲခြင်း"</string>
+    <string name="allow_overlay_description" msgid="7895191337585827691">"ဤခွင့်ပြုချက်သည် အပ်ဖ်ကိုသင်အသုံးပြုနေသည့် အခြားအပ်ဖ်များ၏ အပေါ်တွင်ပြသခွင့်ပေးသောကြောင့် အခြားအပ္ပလီကေးရှင်းများအသုံးပြုရာတွင် အနှောက်အယှက် ဖြစ်စေပါမည်၊ သို့မဟုတ် အခြားအပ္ပလီကေးရှင်းတွင် သင်မြင်ရသည်ဟုထင်သည့်အရာများ ပြောင်းလဲနိုင်သည်။"</string>
+    <string name="keywords_system_alert_window" msgid="8579673659566564926">"အခြားအပ်ဖ်များ၏ အပေါ်တွင် စနစ် သတိပေးချက်ဝင်းဒိုးကိုဆွဲမည်"</string>
+    <string name="overlay_settings" msgid="222062091489691363">"တခြား အပလီကေးရှင်းပေါ်တွင် ထပ်ဆွဲရန်"</string>
+    <string name="system_alert_window_summary" msgid="4268867238063922290">"<xliff:g id="COUNT_1">%d</xliff:g> အပ်ဖ်များ၏ <xliff:g id="COUNT_0">%d</xliff:g> သည်အခြားအပ်ဖ်များပေါ်သို့ ဆွဲရန်ခွင့်ပြုသည်"</string>
+    <string name="filter_overlay_apps" msgid="6965969283342557573">"ခွင့်ပြုချက်များဖြင့် အပ်ဖ်များ"</string>
+    <string name="system_alert_window_on" msgid="2939489395109048888">"ဟုတ်"</string>
+    <string name="system_alert_window_off" msgid="6189115687233061992">"မလို"</string>
+    <string name="write_settings" msgid="4797457275727195681">"စနစ်ချိန်ညှိချက်များကို ပြန်ပြင်ရန်"</string>
+    <string name="keywords_write_settings" msgid="6415597272561105138">"စနစ်ချိန်ညှိချက်များကို ရေးသားပြုပြင်မည်"</string>
+    <string name="write_settings_summary" msgid="4302268998611412696">"<xliff:g id="COUNT_1">%d</xliff:g> ၏ <xliff:g id="COUNT_0">%d</xliff:g> အပ်ဖ်များကို စနစ်ချိန်ညှချက်များအား ပြန်ပြင်ရန် ခွင့်ပြုသည်"</string>
+    <string name="filter_write_settings_apps" msgid="2914615026197322551">"စနစ်ချိန်ညှိချက်များကို ပြန်ပြင်နိုင်သည်"</string>
+    <string name="write_settings_title" msgid="4232152481902542284">"စနစ်ချိန်ညှိချက်များကို ပြန်ပြင်နိုင်သည်"</string>
+    <string name="write_system_settings" msgid="3482913590601096763">"စနစ်ချိန်ညှိချက်များကို ပြန်ပြင်ရန်"</string>
+    <string name="write_settings_preference" msgid="3407383041273067448">"စနစ်ချိန်ညှိချက်များပြန်ပြင်ခြင်း အပ်ဖ်ခွင့်ပြုချက်"</string>
+    <string name="permit_write_settings" msgid="6393779336656870080">"စနစ်ချိန်ညှိချက်များကို ပြန်ပြင်ရန် ခွင့်ပြုမည်"</string>
+    <string name="write_settings_description" msgid="6868293938839954623">"ဤခွင့်ပြုချက်သည် အပ်ဖ်ကို စနစ်ချိန်ညှိချက်များအား ပြန်ပြင်ခွင့်ပေးသည်။"</string>
+    <string name="write_settings_on" msgid="8230580416068832239">"ဟုတ်"</string>
+    <string name="write_settings_off" msgid="5156104383386336233">"မလို"</string>
+    <string name="camera_gesture_title" msgid="1075838577642393011">"ကင်မရာအတွက် နှစ်ကြိမ် လှည့်ပါ"</string>
+    <string name="camera_gesture_desc" msgid="1831390075255870960">"သင့်လက်ကိုနှစ်ကြိမ်လှည့်ခြင်းဖြင့် ကင်မရာအပ်ဖ်ကို ဖွင့်ပါ"</string>
+    <string name="camera_double_tap_power_gesture_title" msgid="1651873760405034645">"ကင်မရာအတွက် ပါဝါခလုတ်ကို နှစ်ကြိမ် နှိပ်ပါ"</string>
+    <string name="camera_double_tap_power_gesture_desc" msgid="7355664631775680376">"သင်၏ မျက်နှာပြင်ကို သော့မဖွင့်ဘဲနှင့် ကင်မရာကို အမြန်ဖွင့်ပါ"</string>
+  <string-array name="color_mode_names">
+    <item msgid="2425514299220523812">"တက်ကြွခြင်း (မူလ)"</item>
+    <item msgid="8446070607501413455">"သဘာဝ"</item>
+    <item msgid="6553408765810699025">"စံ"</item>
+  </string-array>
+  <string-array name="color_mode_descriptions">
+    <item msgid="4979629397075120893">"ပိုမိုကောင်းမွန်အောင်ပြုလုပ်ထားသည့် အရောင်များ"</item>
+    <item msgid="8280754435979370728">"မျက်လုံးမှတွေ့ရသည့် သဘာဝအရောင်"</item>
+    <item msgid="5363960654009010371">"ဒီဂျစ်တယ်အကြောင်းအရာအတွက် ပြင်ဆင်ထားသည့် အရောင်များ"</item>
+  </string-array>
+    <string name="picture_color_mode" msgid="4560755008730283695">"ဓာတ်ပုံအရောင်မုဒ်"</string>
+    <string name="picture_color_mode_desc" msgid="1141891467675548590">"sRGB ကို အသုံးပြုပါ"</string>
 </resources>

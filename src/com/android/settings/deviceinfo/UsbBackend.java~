@@ -18,6 +18,10 @@ package com.android.settings.deviceinfo;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+<<<<<<< HEAD
+import android.content.pm.PackageManager;
+=======
+>>>>>>> afef85f... Merge branch 'marshmallow-dr-release' of https://android.googlesource.com/platform/packages/apps/Settings into mm
 import android.hardware.usb.UsbManager;
 import android.hardware.usb.UsbPort;
 import android.hardware.usb.UsbPortStatus;
@@ -36,6 +40,10 @@ public class UsbBackend {
     public static final int MODE_DATA_MIDI   = 0x03 << 1;
 
     private final boolean mRestricted;
+<<<<<<< HEAD
+    private final boolean mMidi;
+=======
+>>>>>>> afef85f... Merge branch 'marshmallow-dr-release' of https://android.googlesource.com/platform/packages/apps/Settings into mm
 
     private UserManager mUserManager;
     private UsbManager mUsbManager;
@@ -53,6 +61,11 @@ public class UsbBackend {
         mUsbManager = context.getSystemService(UsbManager.class);
 
         mRestricted = mUserManager.hasUserRestriction(UserManager.DISALLOW_USB_FILE_TRANSFER);
+<<<<<<< HEAD
+        mMidi = context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_MIDI);
+
+=======
+>>>>>>> afef85f... Merge branch 'marshmallow-dr-release' of https://android.googlesource.com/platform/packages/apps/Settings into mm
         UsbPort[] ports = mUsbManager.getPorts();
         // For now look for a connected port, in the future we should identify port in the
         // notification and pick based on that.
@@ -135,7 +148,14 @@ public class UsbBackend {
             // No USB data modes are supported.
             return false;
         }
+<<<<<<< HEAD
 
+        if (!mMidi && (mode & MODE_DATA_MASK) == MODE_DATA_MIDI) {
+            return false;
+        }
+
+=======
+>>>>>>> afef85f... Merge branch 'marshmallow-dr-release' of https://android.googlesource.com/platform/packages/apps/Settings into mm
         if (mPort != null) {
             int power = modeToPower(mode);
             if ((mode & MODE_DATA_MASK) != 0) {
