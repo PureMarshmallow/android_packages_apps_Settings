@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About screen, Coldfusion build date -->
-    <string name="build_date">ColdFusion build date</string>
-    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="coldfusion_date">ColdFusion release date</string>
+    <string name="coldfusion_date_default">2015-01-01-0000</string>
 </resources>
 
