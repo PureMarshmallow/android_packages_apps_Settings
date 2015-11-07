@@ -108,7 +108,7 @@
                 android:summary="@string/device_info_default"/>
 
         <!-- ColdFusion build date -->
-        <Preference android:key="build_date"
+        <Preference android:key="coldfusion_date"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/build_date"
                 android:summary="@string/build_date_default" />
