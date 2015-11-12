@@ -2445,6 +2445,10 @@
                 android:value="true" />
         </activity>
 
+       <!-- Cold Fusion Configuration -->
+        <activity android:name=".coldfusion.ColdfusionSettings" />
+        <!-- Cold Fusion Configuration -->
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
